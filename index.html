@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Кружки и секции</title>
+<meta name="description" content="Каталог кружков и секций: расписание, возраст, стоимость, запись через mos.ru.">
+<style>
+:root{
+  --ink:#16303d; --ink-soft:#4d6b78; --paper:#fcfbf8;
+  --line:#dfd9cd; --field:#fff; --free:#1f6b4a; --focus:#b8601f;
+  --a-art:#a4436b; --a-tech:#2f5d97; --a-sport:#1f6b4a;
+  --a-sci:#7a4bb0; --a-hum:#b26310; --a-tour:#0f6d76; --a-care:#6b6257;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);
+  font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:980px;margin:0 auto;padding:0 20px}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--focus);outline-offset:2px;border-radius:2px}
+.skip{position:absolute;left:-999px}
+.skip:focus{left:20px;top:12px;background:var(--field);padding:8px 14px;z-index:10;border:1px solid var(--ink)}
+
+header{border-bottom:1px solid var(--line);padding:32px 0 24px}
+h1{font:400 clamp(29px,6vw,44px)/1.1 Georgia,"Times New Roman",serif;margin:0 0 8px;letter-spacing:-.01em}
+.school{font:400 15px/1.4 Georgia,serif;color:var(--ink-soft);margin:0}
+.meta{margin:16px 0 0;font-size:14px;color:var(--ink-soft)}
+
+.controls{position:sticky;top:0;z-index:5;background:var(--paper);
+  border-bottom:1px solid var(--line);padding:12px 0}
+.search{width:100%;padding:11px 14px;font:inherit;border:1px solid var(--line);
+  background:var(--field);color:var(--ink);border-radius:3px}
+.rows{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px;align-items:center}
+.rows.sub{margin-top:8px}
+.chip{border:1px solid var(--line);background:var(--field);border-radius:100px;
+  padding:6px 13px;font:inherit;font-size:14px;color:var(--ink-soft);cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--paper)}
+.seg{display:flex;border:1px solid var(--line);border-radius:100px;overflow:hidden;background:var(--field)}
+.seg button{border:0;background:none;font:inherit;font-size:14px;padding:6px 15px;
+  cursor:pointer;color:var(--ink-soft)}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.age{border:1px solid var(--line);background:var(--field);border-radius:100px;
+  padding:6px 12px;font:inherit;font-size:14px;width:130px;color:var(--ink)}
+.reset{background:none;border:0;font:inherit;font-size:14px;color:var(--ink-soft);
+  cursor:pointer;text-decoration:underline;padding:6px 4px}
+
+.more{margin-top:2px}
+.more>summary{list-style:none;cursor:pointer;display:inline-flex;align-items:center;gap:7px;
+  font-size:14px;color:var(--ink-soft);padding:8px 2px}
+.more>summary::-webkit-details-marker{display:none}
+.more>summary::after{content:"";width:7px;height:7px;border-right:1.5px solid currentColor;
+  border-bottom:1.5px solid currentColor;transform:rotate(45deg) translate(-2px,-2px);transition:transform .15s}
+.more[open]>summary::after{transform:rotate(225deg) translate(-1px,-1px)}
+.badge{background:var(--ink);color:var(--paper);border-radius:100px;
+  min-width:19px;padding:1px 6px;font-size:12px;text-align:center}
+.badge:empty{display:none}
+.group-label{width:100%;font-size:12px;color:var(--ink-soft);margin:6px 0 -2px}
+
+@media (max-width:640px){
+  .age{width:100%;order:3}
+  .chip,.seg button{padding:10px 14px;font-size:15px}
+  .reset{padding:10px 4px}
+  .controls{padding:10px 0}
+  .rows{gap:7px;margin-top:8px}
+  .more-panel{max-height:44vh;overflow-y:auto;-webkit-overflow-scrolling:touch;
+    padding-bottom:4px;overscroll-behavior:contain}
+  .title{font-size:19px}
+  .item{padding-left:13px}
+}
+
+.count{font-size:14px;color:var(--ink-soft);padding:20px 0 4px}
+.list{list-style:none;margin:0;padding:0 0 60px}
+.item{border-top:1px solid var(--line);padding:20px 0 20px 16px;
+  border-left:3px solid var(--accent,var(--line))}
+.item:last-child{border-bottom:1px solid var(--line)}
+.head{display:flex;gap:14px;align-items:baseline;flex-wrap:wrap}
+.title{font:400 21px/1.25 Georgia,serif;margin:0;flex:1 1 260px}
+.club{display:block;font:400 13px/1.3 -apple-system,sans-serif;color:var(--ink-soft);margin-bottom:3px}
+.price{font-size:15px;white-space:nowrap}
+.price.is-free{color:var(--free)}
+.was{color:var(--ink-soft);font-size:13px;margin-left:6px}
+.area{font-size:13px;color:var(--accent);margin:4px 0 0}
+.desc{margin:9px 0 0;color:var(--ink-soft);font-size:15px;max-width:62ch}
+.facts{display:flex;flex-wrap:wrap;gap:5px 20px;margin:11px 0 0;font-size:14px;color:var(--ink-soft)}
+.sched{margin:9px 0 0;font-size:14px;color:var(--ink-soft)}
+.sched b{font-weight:600;color:var(--ink)}
+.signup{display:inline-block;margin-top:11px;font-size:14px;
+  border-bottom:1px solid var(--accent);text-decoration:none;padding-bottom:1px}
+.viaschool{display:inline-block;margin-top:11px;font-size:14px;color:var(--ink-soft)}
+.empty{padding:44px 0;color:var(--ink-soft)}
+footer{border-top:1px solid var(--line);padding:20px 0 40px;font-size:13px;color:var(--ink-soft)}
+footer p{margin:0 0 6px}
+@media (max-width:560px){.age{width:100%}}
+</style>
+</head>
+<body>
+<a class="skip" href="#results">К списку кружков</a>
+
+<header>
+  <div class="wrap">
+    <h1>Кружки и секции</h1>
+    <p class="school" id="school"></p>
+    <p class="meta" id="contact"></p>
+  </div>
+</header>
+
+<div class="controls">
+  <div class="wrap">
+    <label class="skip" for="q">Поиск по названию или педагогу</label>
+    <input id="q" class="search" type="search" placeholder="Название кружка или фамилия педагога" autocomplete="off">
+
+    <div class="rows">
+      <div class="seg" id="kind" role="group" aria-label="Где занимаются">
+        <button type="button" data-kind="" aria-pressed="true">Все</button>
+        <button type="button" data-kind="school" aria-pressed="false">Школа</button>
+        <button type="button" data-kind="kindergarten" aria-pressed="false">Сады</button>
+      </div>
+      <label class="skip" for="age">Возраст ребёнка</label>
+      <input id="age" class="age" type="number" min="1" max="20" inputmode="numeric" placeholder="Возраст">
+      <button class="chip" type="button" id="freeBtn" aria-pressed="false">Бесплатные</button>
+      <button class="reset" type="button" id="reset">Сбросить</button>
+    </div>
+
+    <details class="more" id="more">
+      <summary>Фильтры<span class="badge" id="badge"></span></summary>
+      <div class="more-panel">
+        <p class="group-label">Здание</p>
+        <div class="rows sub" id="buildings" role="group" aria-label="Здание"></div>
+        <p class="group-label">Направленность</p>
+        <div class="rows sub" id="areas" role="group" aria-label="Направленность"></div>
+        <p class="group-label">День недели</p>
+        <div class="rows sub" id="days" role="group" aria-label="День недели"></div>
+      </div>
+    </details>
+  </div>
+</div>
+
+<main class="wrap">
+  <p class="count" id="count" role="status">Загружаем каталог…</p>
+  <ul class="list" id="results"></ul>
+</main>
+
+<footer><div class="wrap" id="foot"></div></footer>
+
+<script>
+const AREA_VAR = {
+  "Художественная":"--a-art", "Техническая":"--a-tech",
+  "Физкультурно-спортивная":"--a-sport", "Естественно-научная":"--a-sci",
+  "Социально-гуманитарная":"--a-hum", "Туристско-краеведческая":"--a-tour",
+  "Присмотр и уход":"--a-care"
+};
+const DAYS = [["mon","пн"],["tue","вт"],["wed","ср"],["thu","чт"],["fri","пт"],["sat","сб"],["sun","вс"]];
+const DAY_FULL = {mon:"Пн",tue:"Вт",wed:"Ср",thu:"Чт",fri:"Пт",sat:"Сб",sun:"Вс"};
+
+const state = {q:"", kind:"", areas:new Set(), days:new Set(),
+               buildings:new Set(), free:false, age:null};
+let data = null;
+
+const $ = s => document.querySelector(s);
+const norm = s => (s||"").toLowerCase().replace(/ё/g,"е");
+const esc = s => String(s).replace(/[&<>"']/g,
+  m => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
+
+function readUrl(){
+  const p = new URLSearchParams(location.search);
+  state.q = p.get("q") || "";
+  state.kind = p.get("kind") || "";
+  state.free = p.get("price") === "free";
+  state.age = p.get("age") ? +p.get("age") : null;
+  p.getAll("area").forEach(v => state.areas.add(v));
+  p.getAll("day").forEach(v => state.days.add(v));
+  p.getAll("b").forEach(v => state.buildings.add(v));
+}
+
+function writeUrl(){
+  const p = new URLSearchParams();
+  if (state.q) p.set("q", state.q);
+  if (state.kind) p.set("kind", state.kind);
+  if (state.free) p.set("price","free");
+  if (state.age) p.set("age", state.age);
+  state.areas.forEach(v => p.append("area", v));
+  state.days.forEach(v => p.append("day", v));
+  state.buildings.forEach(v => p.append("b", v));
+  const qs = p.toString();
+  history.replaceState(null, "", qs ? "?" + qs : location.pathname);
+}
+
+function match(c){
+  if (state.kind && c.kind !== state.kind) return false;
+  if (state.free && c.price > 0) return false;
+  if (state.areas.size && !state.areas.has(c.area)) return false;
+  if (state.buildings.size && !state.buildings.has(c.buildingCode)) return false;
+  if (state.days.size && !c.days.some(d => state.days.has(d))) return false;
+  if (state.age != null && c.ageFrom != null &&
+      (state.age < c.ageFrom || state.age > c.ageTo)) return false;
+  if (state.q){
+    const hay = norm([c.title, c.club, c.teacher, c.area, c.description].join(" "));
+    if (!norm(state.q).split(/\s+/).filter(Boolean).every(t => hay.includes(t))) return false;
+  }
+  return true;
+}
+
+function plural(n){
+  const a = n % 100, b = n % 10;
+  if (a > 10 && a < 20) return "кружков";
+  if (b === 1) return "кружок";
+  if (b > 1 && b < 5) return "кружка";
+  return "кружков";
+}
+
+function schedule(c){
+  const parts = c.days.map(d => `<b>${DAY_FULL[d]}</b> ${c.schedule[d].join(", ")}`);
+  return parts.length ? `<p class="sched">${parts.join(" · ")}</p>` : "";
+}
+
+function card(c){
+  const v = AREA_VAR[c.area] || "--line";
+  const price = c.price > 0
+    ? `<span class="price">${c.price.toLocaleString("ru")} ₽ / ${c.priceUnit}` +
+      (c.pricePrev && c.pricePrev !== c.price
+        ? `<span class="was">было ${c.pricePrev.toLocaleString("ru")}</span>` : "") + `</span>`
+    : `<span class="price is-free">Бесплатно</span>`;
+
+  const facts = [
+    c.teacher,
+    c.ageFrom != null ? `${c.ageFrom}–${c.ageTo} лет` : null,
+    c.address,
+    c.startDate ? `с ${new Date(c.startDate).toLocaleDateString("ru",{day:"numeric",month:"long"})}` : null
+  ].filter(Boolean).map(f => `<span>${esc(f)}</span>`).join("");
+
+  const action = c.signupUrl
+    ? `<a class="signup" href="${esc(c.signupUrl)}" target="_blank" rel="noopener noreferrer">Записаться на mos.ru</a>`
+    : `<span class="viaschool">Запись — через приёмную школы</span>`;
+
+  return `<li class="item" style="--accent:var(${v})">
+    <div class="head"><h2 class="title">${c.club ? `<span class="club">${esc(c.club)}</span>` : ""}${esc(c.title)}</h2>${price}</div>
+    <p class="area">${esc(c.area)}</p>
+    ${c.description ? `<p class="desc">${esc(c.description)}</p>` : ""}
+    ${schedule(c)}
+    <div class="facts">${facts}</div>
+    ${action}
+  </li>`;
+}
+
+function badge(){
+  const n = state.areas.size + state.days.size + state.buildings.size;
+  $("#badge").textContent = n ? n : "";
+}
+
+function render(){
+  badge();
+  const found = data.courses.filter(match);
+  $("#count").textContent = found.length ? `Найдено ${found.length} ${plural(found.length)}` : "";
+  $("#results").innerHTML = found.length
+    ? found.map(card).join("")
+    : `<li class="empty">Под эти условия ничего не подошло. Уберите часть фильтров или очистите поиск.</li>`;
+}
+
+function chip(label, host, pressed, toggle){
+  const b = document.createElement("button");
+  b.type = "button"; b.className = "chip"; b.textContent = label;
+  b.setAttribute("aria-pressed", String(pressed));
+  b.addEventListener("click", () => {
+    const on = b.getAttribute("aria-pressed") !== "true";
+    b.setAttribute("aria-pressed", String(on));
+    toggle(on); writeUrl(); render();
+  });
+  host.append(b);
+}
+
+function boot(){
+  $("#school").textContent = data.school || "";
+  const c = data.contact;
+  if (c) $("#contact").innerHTML =
+    `${esc(c.role)}: ${esc(c.name)} — <a href="tel:${esc(c.phone)}">${esc(c.phoneLabel)}</a>`;
+  $("#foot").innerHTML =
+    `<p>Данные из рабочей таблицы школы, сверены ${new Date(data.updated).toLocaleDateString("ru")}. ` +
+    `Запись производится на портале mos.ru.</p>` +
+    `<p>Справочный каталог. По расхождениям пишите в приёмную.</p>`;
+
+  const seen = new Map();
+  data.courses.forEach(x => { if (x.building) seen.set(x.buildingCode, x.address); });
+  [...seen].sort((a,b)=>String(a[1]).localeCompare(String(b[1]),"ru"))
+    .forEach(([code,addr]) => chip(addr, $("#buildings"), state.buildings.has(code),
+      on => on ? state.buildings.add(code) : state.buildings.delete(code)));
+
+  [...new Set(data.courses.map(x => x.area))].sort((a,b)=>a.localeCompare(b,"ru"))
+    .forEach(a => chip(a, $("#areas"), state.areas.has(a),
+      on => on ? state.areas.add(a) : state.areas.delete(a)));
+
+  DAYS.forEach(([k,l]) => chip(l, $("#days"), state.days.has(k),
+    on => on ? state.days.add(k) : state.days.delete(k)));
+
+  $("#kind").querySelectorAll("button").forEach(b => {
+    b.setAttribute("aria-pressed", String(b.dataset.kind === state.kind));
+    b.addEventListener("click", () => {
+      state.kind = b.dataset.kind;
+      $("#kind").querySelectorAll("button").forEach(x =>
+        x.setAttribute("aria-pressed", String(x === b)));
+      writeUrl(); render();
+    });
+  });
+
+  const free = $("#freeBtn");
+  free.setAttribute("aria-pressed", String(state.free));
+  free.addEventListener("click", () => {
+    state.free = !state.free;
+    free.setAttribute("aria-pressed", String(state.free));
+    writeUrl(); render();
+  });
+
+  const q = $("#q"); q.value = state.q;
+  let t; q.addEventListener("input", () => {
+    clearTimeout(t);
+    t = setTimeout(() => { state.q = q.value.trim(); writeUrl(); render(); }, 200);
+  });
+
+  const age = $("#age"); if (state.age) age.value = state.age;
+  age.addEventListener("input", () => {
+    state.age = age.value ? +age.value : null; writeUrl(); render();
+  });
+
+  $("#reset").addEventListener("click", () => {
+    Object.assign(state, {q:"", kind:"", free:false, age:null});
+    state.areas.clear(); state.days.clear(); state.buildings.clear();
+    q.value = ""; age.value = "";
+    document.querySelectorAll(".chip").forEach(b => b.setAttribute("aria-pressed","false"));
+    $("#kind").querySelectorAll("button").forEach(b =>
+      b.setAttribute("aria-pressed", String(b.dataset.kind === "")));
+    writeUrl(); render();
+  });
+
+  const more = $("#more");
+  const active = state.areas.size + state.days.size + state.buildings.size;
+  more.open = window.matchMedia("(min-width: 641px)").matches || active > 0;
+
+  render();
+}
+
+readUrl();
+fetch("courses.json?v=" + Date.now())
+  .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  .then(j => { data = j; boot(); })
+  .catch(() => {
+    $("#count").textContent = "";
+    $("#results").innerHTML =
+      '<li class="empty">Каталог не загрузился. Запустите сборку: <code>uv run build_catalog.py</code>, ' +
+      'и откройте страницу через локальный сервер, а не двойным щелчком по файлу.</li>';
+  });
+</script>
+</body>
+</html>

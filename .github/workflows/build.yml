@@ -1,0 +1,51 @@
+name: Сборка каталога
+
+on:
+  push:
+    paths:
+      - 'data/**'
+      - 'overrides.json'
+      - 'config.json'
+      - 'build_catalog.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Проверить, что таблица очищена
+        run: python3 check_ods.py data/catalog.ods
+
+      - name: Установить uv
+        uses: astral-sh/setup-uv@v5
+
+      - name: Собрать каталог
+        run: uv run build_catalog.py data/catalog.ods --strict
+
+      - name: Показать отчёт
+        if: always()
+        run: head -40 report.txt
+
+      - name: Открыть Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: catalog/update
+          title: Обновление каталога кружков
+          commit-message: Пересборка courses.json
+          body: |
+            Автоматическая пересборка из таблицы.
+
+            Проверьте дифф `courses.json` перед вливанием:
+            резкое изменение количества, массовое изменение цен,
+            исчезнувшие коды mos.ru, новые направленности.
+
+            Замечания к исходной таблице — в `report.txt`.
+          add-paths: |
+            courses.json
+            report.txt

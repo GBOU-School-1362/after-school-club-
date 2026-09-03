@@ -1,0 +1,5922 @@
+{
+  "school": "ГБОУ Школа №1362",
+  "contact": {
+    "role": "Дополнительное образование",
+    "name": "Приёмная",
+    "phone": "+74951234567",
+    "phoneLabel": "8 (495) 123-45-67"
+  },
+  "updated": "2026-09-03",
+  "sourceFile": "catalog.ods",
+  "courses": [
+    {
+      "id": "Т47-3",
+      "title": "Учение с увлечением 1А",
+      "club": null,
+      "area": "Естественно-научная",
+      "teacher": "Цветкова М.О.",
+      "ageFrom": 6,
+      "ageTo": 8,
+      "price": 3500,
+      "pricePrev": 3200,
+      "priceUnit": "месяц",
+      "days": [
+        "tue",
+        "thu"
+      ],
+      "schedule": {
+        "tue": [
+          "12:35–13:20"
+        ],
+        "thu": [
+          "12:35–13:20"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "Т47",
+      "building": "Корпус на Ткацкой",
+      "address": "ул. Ткацкая, д. 47",
+      "kind": "school",
+      "mosCode": 2498808,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2498808",
+      "source": "Т47"
+    },
+    {
+      "id": "Т47-4",
+      "title": "Учение с увлечением 1Б",
+      "club": null,
+      "area": "Естественно-научная",
+      "teacher": "Науменко А.Д.",
+      "ageFrom": 6,
+      "ageTo": 8,
+      "price": 3500,
+      "pricePrev": 3200,
+      "priceUnit": "месяц",
+      "days": [
+        "tue",
+        "thu"
+      ],
+      "schedule": {
+        "tue": [
+          "12:35–13:20"
+        ],
+        "thu": [
+          "12:35–13:20"
+        ]
+      },
+      "startDate": "2026-10-01",
+      "buildingCode": "Т47",
+      "building": "Корпус на Ткацкой",
+      "address": "ул. Ткацкая, д. 47",
+      "kind": "school",
+      "mosCode": 2498812,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2498812",
+      "source": "Т47"
+    },
+    {
+      "id": "Т47-5",
+      "title": "Домашнее задание на \"5\" 2А",
+      "club": null,
+      "area": "Естественно-научная",
+      "teacher": "Арутюнова Е.В.",
+      "ageFrom": 7,
+      "ageTo": 9,
+      "price": 3500,
+      "pricePrev": 3000,
+      "priceUnit": "месяц",
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu"
+      ],
+      "schedule": {
+        "mon": [
+          "13:40–14:25"
+        ],
+        "tue": [
+          "13:40–14:25"
+        ],
+        "wed": [
+          "13:40–14:25"
+        ],
+        "thu": [
+          "13:40–14:25"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "Т47",
+      "building": "Корпус на Ткацкой",
+      "address": "ул. Ткацкая, д. 47",
+      "kind": "school",
+      "mosCode": 2496652,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2496652",
+      "source": "Т47"
+    },
+    {
+      "id": "Т47-6",
+      "title": "Домашнее задание на \"5\" 2Б",
+      "club": null,
+      "area": "Естественно-научная",
+      "teacher": "Янгель Г.А.",
+      "ageFrom": 7,
+      "ageTo": 9,
+      "price": 3500,
+      "pricePrev": 3000,
+      "priceUnit": "месяц",
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu"
+      ],
+      "schedule": {
+        "mon": [
+          "13:40–14:25"
+        ],
+        "tue": [
+          "13:40–14:25"
+        ],
+        "wed": [
+          "13:40–14:25"
+        ],
+        "thu": [
+          "13:40–14:25"
+        ]
+      },
+      "startDate": "2026-09-15",
+      "buildingCode": "Т47",
+      "building": "Корпус на Ткацкой",
+      "address": "ул. Ткацкая, д. 47",
+      "kind": "school",
+      "mosCode": 2496685,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2496685",
+      "source": "Т47"
+    },
+    {
+      "id": "Т47-7",
+      "title": "Домашнее задание на \"5\" 3А",
+      "club": null,
+      "area": "Естественно-научная",
+      "teacher": "Афонина К.А.",
+      "ageFrom": 8,
+      "ageTo": 10,
+      "price": 3500,
+      "pricePrev": 3000,
+      "priceUnit": "месяц",
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu"
+      ],
+      "schedule": {
+        "mon": [
+          "13:40–14:25"
+        ],
+        "tue": [
+          "13:40–14:25"
+        ],
+        "wed": [
+          "13:40–14:25"
+        ],
+        "thu": [
+          "13:40–14:25"
+        ]
+      },
+      "startDate": "2026-09-14",
+      "buildingCode": "Т47",
+      "building": "Корпус на Ткацкой",
+      "address": "ул. Ткацкая, д. 47",
+      "kind": "school",
+      "mosCode": 2496717,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2496717",
+      "source": "Т47"
+    },
+    {
+      "id": "Т47-8",
+      "title": "Домашнее задание на \"5\" 4А",
+      "club": null,
+      "area": "Естественно-научная",
+      "teacher": "Гарьянова Д.С.",
+      "ageFrom": 9,
+      "ageTo": 11,
+      "price": 3500,
+      "pricePrev": 3000,
+      "priceUnit": "месяц",
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu"
+      ],
+      "schedule": {
+        "mon": [
+          "13:40–14:25"
+        ],
+        "tue": [
+          "13:40–14:25"
+        ],
+        "wed": [
+          "13:40–14:25"
+        ],
+        "thu": [
+          "13:40–14:25"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "Т47",
+      "building": "Корпус на Ткацкой",
+      "address": "ул. Ткацкая, д. 47",
+      "kind": "school",
+      "mosCode": 2496809,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2496809",
+      "source": "Т47"
+    },
+    {
+      "id": "Т47-9",
+      "title": "Домашнее задание на \"5\" 4Б",
+      "club": null,
+      "area": "Естественно-научная",
+      "teacher": "Баранова О.Г.",
+      "ageFrom": 9,
+      "ageTo": 11,
+      "price": 3500,
+      "pricePrev": 3000,
+      "priceUnit": "месяц",
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu"
+      ],
+      "schedule": {
+        "mon": [
+          "13:40–14:25"
+        ],
+        "tue": [
+          "13:40–14:25"
+        ],
+        "wed": [
+          "13:40–14:25"
+        ],
+        "thu": [
+          "13:40–14:25"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "Т47",
+      "building": "Корпус на Ткацкой",
+      "address": "ул. Ткацкая, д. 47",
+      "kind": "school",
+      "mosCode": 2496856,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2496856",
+      "source": "Т47"
+    },
+    {
+      "id": "Т47-10",
+      "title": "Домашнее задание на \"5\" 4В",
+      "club": null,
+      "area": "Естественно-научная",
+      "teacher": "Михайлова И.В.",
+      "ageFrom": 9,
+      "ageTo": 11,
+      "price": 3500,
+      "pricePrev": 3000,
+      "priceUnit": "месяц",
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu"
+      ],
+      "schedule": {
+        "mon": [
+          "13:40–14:25"
+        ],
+        "tue": [
+          "13:40–14:25"
+        ],
+        "wed": [
+          "13:40–14:25"
+        ],
+        "thu": [
+          "13:40–14:25"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "Т47",
+      "building": "Корпус на Ткацкой",
+      "address": "ул. Ткацкая, д. 47",
+      "kind": "school",
+      "mosCode": 2496883,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2496883",
+      "source": "Т47"
+    },
+    {
+      "id": "Т47-11",
+      "title": "Баскетбол \"Баланс",
+      "club": "Школьный спортивный клуб «Ермак»",
+      "area": "Физкультурно-спортивная",
+      "teacher": "Сафонов А.О.",
+      "ageFrom": 8,
+      "ageTo": 17,
+      "price": 5200,
+      "pricePrev": 4800,
+      "priceUnit": "месяц",
+      "days": [
+        "mon",
+        "wed",
+        "fri"
+      ],
+      "schedule": {
+        "mon": [
+          "17:40–19:10"
+        ],
+        "wed": [
+          "17:40–19:10"
+        ],
+        "fri": [
+          "17:40–19:10"
+        ]
+      },
+      "startDate": "2026-09-02",
+      "buildingCode": "Т47",
+      "building": "Корпус на Ткацкой",
+      "address": "ул. Ткацкая, д. 47",
+      "kind": "school",
+      "mosCode": 2493326,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2493326",
+      "source": "Т47",
+      "description": "Игровая подготовка, работа в парах, участие в школьной лиге. Форму выдаём на первом занятии.",
+      "highlight": true
+    },
+    {
+      "id": "Т47-12",
+      "title": "Капоэйра (2 часа)",
+      "club": "Школьный спортивный клуб «Ермак»",
+      "area": "Физкультурно-спортивная",
+      "teacher": "Безнаева И.В.",
+      "ageFrom": 6,
+      "ageTo": 50,
+      "price": 4200,
+      "pricePrev": 3800,
+      "priceUnit": "месяц",
+      "days": [
+        "thu",
+        "sat"
+      ],
+      "schedule": {
+        "thu": [
+          "18:00–19:00"
+        ],
+        "sat": [
+          "11:00–12:00"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "Т47",
+      "building": "Корпус на Ткацкой",
+      "address": "ул. Ткацкая, д. 47",
+      "kind": "school",
+      "mosCode": 2493410,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2493410",
+      "source": "Т47"
+    },
+    {
+      "id": "Т47-13",
+      "title": "Капоэйра 1 час",
+      "club": "Школьный спортивный клуб «Ермак»",
+      "area": "Физкультурно-спортивная",
+      "teacher": "Безнаева И.В.",
+      "ageFrom": 6,
+      "ageTo": 50,
+      "price": 3000,
+      "pricePrev": 2700,
+      "priceUnit": "месяц",
+      "days": [],
+      "schedule": {},
+      "startDate": "2026-09-07",
+      "buildingCode": "Т47",
+      "building": "Корпус на Ткацкой",
+      "address": "ул. Ткацкая, д. 47",
+      "kind": "school",
+      "mosCode": 2493443,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2493443",
+      "source": "Т47"
+    },
+    {
+      "id": "Т47-14",
+      "title": "танцевальный коллектив \"Dance Way\" начинающие (8-18лет)",
+      "club": "Школьный спортивный клуб «Ермак»",
+      "area": "Художественная",
+      "teacher": "Гуртовая Д.Г.",
+      "ageFrom": 9,
+      "ageTo": 18,
+      "price": 4000,
+      "pricePrev": 3500,
+      "priceUnit": "месяц",
+      "days": [
+        "mon",
+        "wed"
+      ],
+      "schedule": {
+        "mon": [
+          "16:30–17:30"
+        ],
+        "wed": [
+          "16:30–17:30"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "Т47",
+      "building": "Корпус на Ткацкой",
+      "address": "ул. Ткацкая, д. 47",
+      "kind": "school",
+      "mosCode": 2493498,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2493498",
+      "source": "Т47"
+    },
+    {
+      "id": "Т47-15",
+      "title": "танцевальный коллектив \"Dance Way\" профессионалы (8-18 лет)",
+      "club": "Школьный спортивный клуб «Ермак»",
+      "area": "Художественная",
+      "teacher": "Гуртовая Д.Г.",
+      "ageFrom": 9,
+      "ageTo": 18,
+      "price": 5000,
+      "pricePrev": 4500,
+      "priceUnit": "месяц",
+      "days": [
+        "mon",
+        "wed"
+      ],
+      "schedule": {
+        "mon": [
+          "17:45–19:15"
+        ],
+        "wed": [
+          "17:45–19:15"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "Т47",
+      "building": "Корпус на Ткацкой",
+      "address": "ул. Ткацкая, д. 47",
+      "kind": "school",
+      "mosCode": 2493557,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2493557",
+      "source": "Т47"
+    },
+    {
+      "id": "Т47-16",
+      "title": "Шахматы (1-4 классы) начинающие",
+      "club": "Школьный спортивный клуб «Ермак»",
+      "area": "Физкультурно-спортивная",
+      "teacher": "Сапеко Н.Н.",
+      "ageFrom": 6,
+      "ageTo": 11,
+      "price": 3500,
+      "pricePrev": 3200,
+      "priceUnit": "месяц",
+      "days": [
+        "wed"
+      ],
+      "schedule": {
+        "wed": [
+          "13:45–14:30"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "Т47",
+      "building": "Корпус на Ткацкой",
+      "address": "ул. Ткацкая, д. 47",
+      "kind": "school",
+      "mosCode": 2496911,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2496911",
+      "source": "Т47"
+    },
+    {
+      "id": "Т47-17",
+      "title": "Шахматы (1-4 классы) продолжающие",
+      "club": "Школьный спортивный клуб «Ермак»",
+      "area": "Физкультурно-спортивная",
+      "teacher": "Сапеко Н.Н.",
+      "ageFrom": 6,
+      "ageTo": 11,
+      "price": 3500,
+      "pricePrev": 3200,
+      "priceUnit": "месяц",
+      "days": [
+        "wed"
+      ],
+      "schedule": {
+        "wed": [
+          "14:45–15:30"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "Т47",
+      "building": "Корпус на Ткацкой",
+      "address": "ул. Ткацкая, д. 47",
+      "kind": "school",
+      "mosCode": 2496999,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2496999",
+      "source": "Т47"
+    },
+    {
+      "id": "Т47-18",
+      "title": "Волшебная палитра (1-4 класс)",
+      "club": null,
+      "area": "Художественная",
+      "teacher": "Чистякова Ю.В.",
+      "ageFrom": 7,
+      "ageTo": 11,
+      "price": 2800,
+      "pricePrev": 2700,
+      "priceUnit": "месяц",
+      "days": [
+        "mon"
+      ],
+      "schedule": {
+        "mon": [
+          "13:30–14:15"
+        ]
+      },
+      "startDate": null,
+      "buildingCode": "Т47",
+      "building": "Корпус на Ткацкой",
+      "address": "ул. Ткацкая, д. 47",
+      "kind": "school",
+      "mosCode": null,
+      "enrollment": "none",
+      "signupUrl": null,
+      "source": "Т47"
+    },
+    {
+      "id": "Т47-19",
+      "title": "Академии ФЗК «Спартак» им. Ф. А. Георгиевского(1-4 класс)",
+      "club": "Школьный спортивный клуб «Ермак»",
+      "area": "Физкультурно-спортивная",
+      "teacher": "Демин В.Р.",
+      "ageFrom": 6,
+      "ageTo": 11,
+      "price": 3200,
+      "pricePrev": 3000,
+      "priceUnit": "месяц",
+      "days": [
+        "mon",
+        "wed"
+      ],
+      "schedule": {
+        "mon": [
+          "15:30–16:30"
+        ],
+        "wed": [
+          "15:30–16:30"
+        ]
+      },
+      "startDate": "2026-10-01",
+      "buildingCode": "Т47",
+      "building": "Корпус на Ткацкой",
+      "address": "ул. Ткацкая, д. 47",
+      "kind": "school",
+      "mosCode": 2493605,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2493605",
+      "source": "Т47"
+    },
+    {
+      "id": "Т47-20",
+      "title": "Академии ФЗК «Спартак» им. Ф. А. Георгиевского(5-9 класс)",
+      "club": "Школьный спортивный клуб «Ермак»",
+      "area": "Без направленности",
+      "teacher": "Демин В.Р.",
+      "ageFrom": 10,
+      "ageTo": 16,
+      "price": 3200,
+      "pricePrev": 3000,
+      "priceUnit": "месяц",
+      "days": [
+        "mon",
+        "wed"
+      ],
+      "schedule": {
+        "mon": [
+          "16:30–17:30"
+        ],
+        "wed": [
+          "16:30–17:30"
+        ]
+      },
+      "startDate": "2026-10-01",
+      "buildingCode": "Т47",
+      "building": "Корпус на Ткацкой",
+      "address": "ул. Ткацкая, д. 47",
+      "kind": "school",
+      "mosCode": 2493754,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2493754",
+      "source": "Т47"
+    },
+    {
+      "id": "Т47-21",
+      "title": "Мелодия фортепиано (индивидуальгные занятия)",
+      "club": null,
+      "area": "Художественная",
+      "teacher": "Назмутдинова Р.С.",
+      "ageFrom": 6,
+      "ageTo": 13,
+      "price": 4000,
+      "pricePrev": 3700,
+      "priceUnit": "месяц",
+      "days": [
+        "tue"
+      ],
+      "schedule": {
+        "tue": [
+          "14:00–14:45"
+        ]
+      },
+      "startDate": "2026-10-01",
+      "buildingCode": "Т47",
+      "building": "Корпус на Ткацкой",
+      "address": "ул. Ткацкая, д. 47",
+      "kind": "school",
+      "mosCode": 2497052,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2497052",
+      "source": "Т47"
+    },
+    {
+      "id": "Т47-22",
+      "title": "Мини-школа \"Ученый кот\" (Ткацкая, д.47)",
+      "club": null,
+      "area": "Социально-гуманитарная",
+      "teacher": "Гарьянова Д.С.Баранова О.Г.Михайлова И.В.",
+      "ageFrom": 6,
+      "ageTo": 7,
+      "price": 6500,
+      "pricePrev": 6000,
+      "priceUnit": "месяц",
+      "days": [
+        "tue",
+        "thu"
+      ],
+      "schedule": {
+        "tue": [
+          "16:00–18:00"
+        ],
+        "thu": [
+          "16:00–18:00"
+        ]
+      },
+      "startDate": "2026-10-01",
+      "buildingCode": "Т47",
+      "building": "Корпус на Ткацкой",
+      "address": "ул. Ткацкая, д. 47",
+      "kind": "school",
+      "mosCode": 2497151,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2497151",
+      "source": "Т47"
+    },
+    {
+      "id": "Т47-23",
+      "title": "Секреты русского языка 6 класс",
+      "club": null,
+      "area": "Социально-гуманитарная",
+      "teacher": "Романова Е.М.",
+      "ageFrom": 11,
+      "ageTo": 13,
+      "price": 3500,
+      "pricePrev": null,
+      "priceUnit": "месяц",
+      "days": [
+        "tue",
+        "thu"
+      ],
+      "schedule": {
+        "tue": [
+          "14:40–15:25"
+        ],
+        "thu": [
+          "14:40–15:25"
+        ]
+      },
+      "startDate": null,
+      "buildingCode": "Т47",
+      "building": "Корпус на Ткацкой",
+      "address": "ул. Ткацкая, д. 47",
+      "kind": "school",
+      "mosCode": 2529512,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2529512",
+      "source": "Т47"
+    },
+    {
+      "id": "Т47-24",
+      "title": "Сложные вопросы математики 11 класс",
+      "club": null,
+      "area": "Без направленности",
+      "teacher": "Трубникова Л.В.",
+      "ageFrom": 15,
+      "ageTo": 18,
+      "price": 4500,
+      "pricePrev": null,
+      "priceUnit": "месяц",
+      "days": [
+        "sat"
+      ],
+      "schedule": {
+        "sat": [
+          "12:00–15:00"
+        ]
+      },
+      "startDate": null,
+      "buildingCode": "Т47",
+      "building": "Корпус на Ткацкой",
+      "address": "ул. Ткацкая, д. 47",
+      "kind": "school",
+      "mosCode": 2530974,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2530974",
+      "source": "Т47"
+    },
+    {
+      "id": "Т47-25",
+      "title": "Тхэквондо 1-4 классы",
+      "club": "Школьный спортивный клуб «Ермак»",
+      "area": "Физкультурно-спортивная",
+      "teacher": "Нистратов П.В.",
+      "ageFrom": 6,
+      "ageTo": 11,
+      "price": 4400,
+      "pricePrev": null,
+      "priceUnit": "месяц",
+      "days": [
+        "tue",
+        "thu"
+      ],
+      "schedule": {
+        "tue": [
+          "16:50–17:50"
+        ],
+        "thu": [
+          "16:50–17:50"
+        ]
+      },
+      "startDate": null,
+      "buildingCode": "Т47",
+      "building": "Корпус на Ткацкой",
+      "address": "ул. Ткацкая, д. 47",
+      "kind": "school",
+      "mosCode": 2531266,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2531266",
+      "source": "Т47"
+    },
+    {
+      "id": "Т47-26",
+      "title": "ГПД (5 дней в неделю ул. Ткацкая, д.47",
+      "club": null,
+      "area": "Присмотр и уход",
+      "teacher": "Бочарова Н.В.Белецкая Т.Г.",
+      "ageFrom": 1,
+      "ageTo": 5,
+      "price": 4200,
+      "pricePrev": 3850,
+      "priceUnit": "месяц",
+      "days": [],
+      "schedule": {},
+      "startDate": null,
+      "buildingCode": "Т47",
+      "building": "Корпус на Ткацкой",
+      "address": "ул. Ткацкая, д. 47",
+      "kind": "school",
+      "mosCode": 2502031,
+      "enrollment": "school",
+      "signupUrl": null,
+      "source": "Т47"
+    },
+    {
+      "id": "Т47-27",
+      "title": "ГПД (3 дня в неделю) ул. Ткацкая, д.47",
+      "club": null,
+      "area": "Присмотр и уход",
+      "teacher": "Бочарова Н.В.Белецкая Т.Г.",
+      "ageFrom": 1,
+      "ageTo": 5,
+      "price": 3300,
+      "pricePrev": 3050,
+      "priceUnit": "месяц",
+      "days": [],
+      "schedule": {},
+      "startDate": null,
+      "buildingCode": "Т47",
+      "building": "Корпус на Ткацкой",
+      "address": "ул. Ткацкая, д. 47",
+      "kind": "school",
+      "mosCode": 2502055,
+      "enrollment": "school",
+      "signupUrl": null,
+      "source": "Т47"
+    },
+    {
+      "id": "Т47-28",
+      "title": "ГПД (2 дня в неделю) ул. Ткацкая, д.47",
+      "club": null,
+      "area": "Присмотр и уход",
+      "teacher": "Бочарова Н.В.Белецкая Т.Г.",
+      "ageFrom": 1,
+      "ageTo": 5,
+      "price": 2300,
+      "pricePrev": 2100,
+      "priceUnit": "месяц",
+      "days": [],
+      "schedule": {},
+      "startDate": null,
+      "buildingCode": "Т47",
+      "building": "Корпус на Ткацкой",
+      "address": "ул. Ткацкая, д. 47",
+      "kind": "school",
+      "mosCode": 2502081,
+      "enrollment": "school",
+      "signupUrl": null,
+      "source": "Т47"
+    },
+    {
+      "id": "Т47-29",
+      "title": "ГПД (1 день в неделю) ул. Ткацкая, д.47",
+      "club": null,
+      "area": "Присмотр и уход",
+      "teacher": "Бочарова Н.В.Белецкая Т.Г.",
+      "ageFrom": 1,
+      "ageTo": 5,
+      "price": 1300,
+      "pricePrev": 1200,
+      "priceUnit": "месяц",
+      "days": [],
+      "schedule": {},
+      "startDate": null,
+      "buildingCode": "Т47",
+      "building": "Корпус на Ткацкой",
+      "address": "ул. Ткацкая, д. 47",
+      "kind": "school",
+      "mosCode": 2502104,
+      "enrollment": "school",
+      "signupUrl": null,
+      "source": "Т47"
+    },
+    {
+      "id": "Т47-32",
+      "title": "К пятерке шаг за шагом 11 класс",
+      "club": null,
+      "area": "Социально-гуманитарная",
+      "teacher": "Белова Э.В.",
+      "ageFrom": 16,
+      "ageTo": 18,
+      "price": 2600,
+      "pricePrev": 2400,
+      "priceUnit": "месяц",
+      "days": [],
+      "schedule": {},
+      "startDate": null,
+      "buildingCode": "Т47",
+      "building": "Корпус на Ткацкой",
+      "address": "ул. Ткацкая, д. 47",
+      "kind": "school",
+      "mosCode": null,
+      "enrollment": "none",
+      "signupUrl": null,
+      "source": "Т47"
+    },
+    {
+      "id": "Т47-33",
+      "title": "Ступеньки математики 5 класс",
+      "club": null,
+      "area": "Естественно-научная",
+      "teacher": "Марынкина С.Н.",
+      "ageFrom": 10,
+      "ageTo": 12,
+      "price": 2700,
+      "pricePrev": 2500,
+      "priceUnit": "месяц",
+      "days": [],
+      "schedule": {},
+      "startDate": null,
+      "buildingCode": "Т47",
+      "building": "Корпус на Ткацкой",
+      "address": "ул. Ткацкая, д. 47",
+      "kind": "school",
+      "mosCode": null,
+      "enrollment": "none",
+      "signupUrl": null,
+      "source": "Т47"
+    },
+    {
+      "id": "Т47-34",
+      "title": "Секреты русского языка 5 класс",
+      "club": null,
+      "area": "Социально-гуманитарная",
+      "teacher": "Якушева Н.В.",
+      "ageFrom": 10,
+      "ageTo": 12,
+      "price": 2200,
+      "pricePrev": 2000,
+      "priceUnit": "месяц",
+      "days": [],
+      "schedule": {},
+      "startDate": null,
+      "buildingCode": "Т47",
+      "building": "Корпус на Ткацкой",
+      "address": "ул. Ткацкая, д. 47",
+      "kind": "school",
+      "mosCode": null,
+      "enrollment": "none",
+      "signupUrl": null,
+      "source": "Т47"
+    },
+    {
+      "id": "Т47-35",
+      "title": "Шахматы/ Шашки",
+      "club": "Школьный спортивный клуб «Ермак»",
+      "area": "Физкультурно-спортивная",
+      "teacher": "Денисов В.С.",
+      "ageFrom": 11,
+      "ageTo": 18,
+      "price": 3000,
+      "pricePrev": 3000,
+      "priceUnit": "месяц",
+      "days": [],
+      "schedule": {},
+      "startDate": null,
+      "buildingCode": "Т47",
+      "building": "Корпус на Ткацкой",
+      "address": "ул. Ткацкая, д. 47",
+      "kind": "school",
+      "mosCode": null,
+      "enrollment": "none",
+      "signupUrl": null,
+      "source": "Т47"
+    },
+    {
+      "id": "Т47-36",
+      "title": "Сложные вопросы математики (11 классы)",
+      "club": null,
+      "area": "Естественно-научная",
+      "teacher": "Трубникова Л.В.",
+      "ageFrom": 16,
+      "ageTo": 17,
+      "price": 3000,
+      "pricePrev": 3000,
+      "priceUnit": "месяц",
+      "days": [],
+      "schedule": {},
+      "startDate": null,
+      "buildingCode": "Т47",
+      "building": "Корпус на Ткацкой",
+      "address": "ул. Ткацкая, д. 47",
+      "kind": "school",
+      "mosCode": null,
+      "enrollment": "none",
+      "signupUrl": null,
+      "source": "Т47"
+    },
+    {
+      "id": "Т47-37",
+      "title": "Сложные вопросы математики (9 классы)",
+      "club": null,
+      "area": "Естественно-научная",
+      "teacher": "Трубникова Л.В.",
+      "ageFrom": 17,
+      "ageTo": 18,
+      "price": 3000,
+      "pricePrev": 3000,
+      "priceUnit": "месяц",
+      "days": [],
+      "schedule": {},
+      "startDate": null,
+      "buildingCode": "Т47",
+      "building": "Корпус на Ткацкой",
+      "address": "ул. Ткацкая, д. 47",
+      "kind": "school",
+      "mosCode": null,
+      "enrollment": "none",
+      "signupUrl": null,
+      "source": "Т47"
+    },
+    {
+      "id": "Т47-38",
+      "title": "В стране английских букв (1-2 класс)",
+      "club": null,
+      "area": "Социально-гуманитарная",
+      "teacher": "Левашова А.Г.",
+      "ageFrom": 6,
+      "ageTo": 9,
+      "price": 3500,
+      "pricePrev": 3500,
+      "priceUnit": "месяц",
+      "days": [],
+      "schedule": {},
+      "startDate": null,
+      "buildingCode": "Т47",
+      "building": "Корпус на Ткацкой",
+      "address": "ул. Ткацкая, д. 47",
+      "kind": "school",
+      "mosCode": null,
+      "enrollment": "none",
+      "signupUrl": null,
+      "source": "Т47"
+    },
+    {
+      "id": "Т47-39",
+      "title": "В стране английских букв (1-2 класс) - 1 час",
+      "club": null,
+      "area": "Социально-гуманитарная",
+      "teacher": "Левашова А.Г.",
+      "ageFrom": 6,
+      "ageTo": 9,
+      "price": 2500,
+      "pricePrev": 2500,
+      "priceUnit": "месяц",
+      "days": [],
+      "schedule": {},
+      "startDate": null,
+      "buildingCode": "Т47",
+      "building": "Корпус на Ткацкой",
+      "address": "ул. Ткацкая, д. 47",
+      "kind": "school",
+      "mosCode": null,
+      "enrollment": "none",
+      "signupUrl": null,
+      "source": "Т47"
+    },
+    {
+      "id": "Т47-40",
+      "title": "Веселый английский (2 класс)",
+      "club": null,
+      "area": "Социально-гуманитарная",
+      "teacher": "Карпова Е.В.",
+      "ageFrom": 7,
+      "ageTo": 9,
+      "price": 3500,
+      "pricePrev": null,
+      "priceUnit": "месяц",
+      "days": [],
+      "schedule": {},
+      "startDate": null,
+      "buildingCode": "Т47",
+      "building": "Корпус на Ткацкой",
+      "address": "ул. Ткацкая, д. 47",
+      "kind": "school",
+      "mosCode": null,
+      "enrollment": "none",
+      "signupUrl": null,
+      "source": "Т47"
+    },
+    {
+      "id": "Т47-41",
+      "title": "Веселый английский (2 класс) - 1 час",
+      "club": null,
+      "area": "Социально-гуманитарная",
+      "teacher": "Карпова Е.В.",
+      "ageFrom": 7,
+      "ageTo": 9,
+      "price": 2500,
+      "pricePrev": null,
+      "priceUnit": "месяц",
+      "days": [],
+      "schedule": {},
+      "startDate": null,
+      "buildingCode": "Т47",
+      "building": "Корпус на Ткацкой",
+      "address": "ул. Ткацкая, д. 47",
+      "kind": "school",
+      "mosCode": null,
+      "enrollment": "none",
+      "signupUrl": null,
+      "source": "Т47"
+    },
+    {
+      "id": "Т47-42",
+      "title": "Веселый английский (4 класс)",
+      "club": null,
+      "area": "Социально-гуманитарная",
+      "teacher": "Портнова М.А.",
+      "ageFrom": 9,
+      "ageTo": 11,
+      "price": 3500,
+      "pricePrev": null,
+      "priceUnit": "месяц",
+      "days": [],
+      "schedule": {},
+      "startDate": null,
+      "buildingCode": "Т47",
+      "building": "Корпус на Ткацкой",
+      "address": "ул. Ткацкая, д. 47",
+      "kind": "school",
+      "mosCode": null,
+      "enrollment": "none",
+      "signupUrl": null,
+      "source": "Т47"
+    },
+    {
+      "id": "Т47-43",
+      "title": "Веселый английский (4 класс) - 1 час",
+      "club": null,
+      "area": "Социально-гуманитарная",
+      "teacher": "Портнова М.А.",
+      "ageFrom": 9,
+      "ageTo": 11,
+      "price": 2500,
+      "pricePrev": null,
+      "priceUnit": "месяц",
+      "days": [],
+      "schedule": {},
+      "startDate": null,
+      "buildingCode": "Т47",
+      "building": "Корпус на Ткацкой",
+      "address": "ул. Ткацкая, д. 47",
+      "kind": "school",
+      "mosCode": null,
+      "enrollment": "none",
+      "signupUrl": null,
+      "source": "Т47"
+    },
+    {
+      "id": "Т47-44",
+      "title": "Веселый английский (4 класс)",
+      "club": null,
+      "area": "Социально-гуманитарная",
+      "teacher": "Морозова А.Б.",
+      "ageFrom": 9,
+      "ageTo": 11,
+      "price": 3500,
+      "pricePrev": null,
+      "priceUnit": "месяц",
+      "days": [],
+      "schedule": {},
+      "startDate": null,
+      "buildingCode": "Т47",
+      "building": "Корпус на Ткацкой",
+      "address": "ул. Ткацкая, д. 47",
+      "kind": "school",
+      "mosCode": null,
+      "enrollment": "none",
+      "signupUrl": null,
+      "source": "Т47"
+    },
+    {
+      "id": "Т47-45",
+      "title": "Веселый английский (4 класс) - 1 час",
+      "club": null,
+      "area": "Социально-гуманитарная",
+      "teacher": "Морозова А.Б.",
+      "ageFrom": 9,
+      "ageTo": 11,
+      "price": 2500,
+      "pricePrev": null,
+      "priceUnit": "месяц",
+      "days": [],
+      "schedule": {},
+      "startDate": null,
+      "buildingCode": "Т47",
+      "building": "Корпус на Ткацкой",
+      "address": "ул. Ткацкая, д. 47",
+      "kind": "school",
+      "mosCode": null,
+      "enrollment": "none",
+      "signupUrl": null,
+      "source": "Т47"
+    },
+    {
+      "id": "ИШ60-3",
+      "title": "Учение с увлечением 3Б",
+      "club": null,
+      "area": "Естественно-научная",
+      "teacher": "Чудина И.Н.",
+      "ageFrom": 8,
+      "ageTo": 10,
+      "price": 3500,
+      "pricePrev": 3000,
+      "priceUnit": "месяц",
+      "days": [
+        "tue",
+        "thu"
+      ],
+      "schedule": {
+        "tue": [
+          "13:40–14:25"
+        ],
+        "thu": [
+          "13:40–14:25"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "ИШ60",
+      "building": "Корпус на Измайловском",
+      "address": "Измайловское ш., д. 60",
+      "kind": "school",
+      "mosCode": 2497548,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2497548",
+      "source": "ИШ60"
+    },
+    {
+      "id": "ИШ60-4",
+      "title": "Учение с увлечением 4Г",
+      "club": null,
+      "area": "Естественно-научная",
+      "teacher": "Силакова Е.В.",
+      "ageFrom": 9,
+      "ageTo": 11,
+      "price": 3000,
+      "pricePrev": 2200,
+      "priceUnit": "месяц",
+      "days": [
+        "fri"
+      ],
+      "schedule": {
+        "fri": [
+          "13:40–14:25"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "ИШ60",
+      "building": "Корпус на Измайловском",
+      "address": "Измайловское ш., д. 60",
+      "kind": "school",
+      "mosCode": 2504146,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2504146",
+      "source": "ИШ60"
+    },
+    {
+      "id": "ИШ60-5",
+      "title": "Учение с увлечением 4Д",
+      "club": null,
+      "area": "Естественно-научная",
+      "teacher": "Паршкова О.С.",
+      "ageFrom": 9,
+      "ageTo": 11,
+      "price": 3500,
+      "pricePrev": 3000,
+      "priceUnit": "месяц",
+      "days": [
+        "mon",
+        "thu"
+      ],
+      "schedule": {
+        "mon": [
+          "13:40–14:25"
+        ],
+        "thu": [
+          "13:40–14:25"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "ИШ60",
+      "building": "Корпус на Измайловском",
+      "address": "Измайловское ш., д. 60",
+      "kind": "school",
+      "mosCode": 2497566,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2497566",
+      "source": "ИШ60"
+    },
+    {
+      "id": "ИШ60-6",
+      "title": "Изостудия \"Рисунок и живопись\" (начальная школа)",
+      "club": null,
+      "area": "Художественная",
+      "teacher": "Сорокина Н.Н.",
+      "ageFrom": 6,
+      "ageTo": 12,
+      "price": 3200,
+      "pricePrev": 3000,
+      "priceUnit": "месяц",
+      "days": [
+        "fri"
+      ],
+      "schedule": {
+        "fri": [
+          "14:30–16:00"
+        ]
+      },
+      "startDate": "2026-09-15",
+      "buildingCode": "ИШ60",
+      "building": "Корпус на Измайловском",
+      "address": "Измайловское ш., д. 60",
+      "kind": "school",
+      "mosCode": 2497580,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2497580",
+      "source": "ИШ60"
+    },
+    {
+      "id": "ИШ60-7",
+      "title": "Спортивные бальные танцы \"Танцстиль\" 2 часа",
+      "club": "Школьный спортивный клуб «Ермак»",
+      "area": "Физкультурно-спортивная",
+      "teacher": "Шалимова А.Б.",
+      "ageFrom": 6,
+      "ageTo": 16,
+      "price": 4500,
+      "pricePrev": 4300,
+      "priceUnit": "месяц",
+      "days": [
+        "mon",
+        "wed"
+      ],
+      "schedule": {
+        "mon": [
+          "17:30–18:30"
+        ],
+        "wed": [
+          "17:30–18:30"
+        ]
+      },
+      "startDate": "2026-09-01",
+      "buildingCode": "ИШ60",
+      "building": "Корпус на Измайловском",
+      "address": "Измайловское ш., д. 60",
+      "kind": "school",
+      "mosCode": 2493797,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2493797",
+      "source": "ИШ60"
+    },
+    {
+      "id": "ИШ60-8",
+      "title": "Спортивные бальные танцы \"Танцстиль\" 1 час",
+      "club": "Школьный спортивный клуб «Ермак»",
+      "area": "Физкультурно-спортивная",
+      "teacher": "Шалимова А.Б.",
+      "ageFrom": 6,
+      "ageTo": 16,
+      "price": 2600,
+      "pricePrev": 2400,
+      "priceUnit": "месяц",
+      "days": [],
+      "schedule": {},
+      "startDate": "2026-09-01",
+      "buildingCode": "ИШ60",
+      "building": "Корпус на Измайловском",
+      "address": "Измайловское ш., д. 60",
+      "kind": "school",
+      "mosCode": 2493832,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2493832",
+      "source": "ИШ60"
+    },
+    {
+      "id": "ИШ60-9",
+      "title": "Тхэквондо (младшая группа)",
+      "club": "Школьный спортивный клуб «Ермак»",
+      "area": "Физкультурно-спортивная",
+      "teacher": "Нистратов П.В.",
+      "ageFrom": 4,
+      "ageTo": 10,
+      "price": 4400,
+      "pricePrev": 4000,
+      "priceUnit": "месяц",
+      "days": [
+        "tue",
+        "thu"
+      ],
+      "schedule": {
+        "tue": [
+          "18:00–19:00"
+        ],
+        "thu": [
+          "18:00–19:00"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "ИШ60",
+      "building": "Корпус на Измайловском",
+      "address": "Измайловское ш., д. 60",
+      "kind": "school",
+      "mosCode": 2493889,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2493889",
+      "source": "ИШ60"
+    },
+    {
+      "id": "ИШ60-10",
+      "title": "Тхэквондо (старшая группа)",
+      "club": "Школьный спортивный клуб «Ермак»",
+      "area": "Физкультурно-спортивная",
+      "teacher": "Нистратов П.В.",
+      "ageFrom": 11,
+      "ageTo": 17,
+      "price": 5000,
+      "pricePrev": 4500,
+      "priceUnit": "месяц",
+      "days": [
+        "tue",
+        "thu"
+      ],
+      "schedule": {
+        "tue": [
+          "19:00–20:30"
+        ],
+        "thu": [
+          "19:00–20:30"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "ИШ60",
+      "building": "Корпус на Измайловском",
+      "address": "Измайловское ш., д. 60",
+      "kind": "school",
+      "mosCode": 2493991,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2493991",
+      "source": "ИШ60"
+    },
+    {
+      "id": "ИШ60-11",
+      "title": "Шахматы, начинающие (начальная школа)",
+      "club": "Школьный спортивный клуб «Ермак»",
+      "area": "Физкультурно-спортивная",
+      "teacher": "Сапеко Н.Н.",
+      "ageFrom": 6,
+      "ageTo": 11,
+      "price": 3500,
+      "pricePrev": 3200,
+      "priceUnit": "месяц",
+      "days": [
+        "tue"
+      ],
+      "schedule": {
+        "tue": [
+          "17:00–17:45"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "ИШ60",
+      "building": "Корпус на Измайловском",
+      "address": "Измайловское ш., д. 60",
+      "kind": "school",
+      "mosCode": 2498933,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2498933",
+      "source": "ИШ60"
+    },
+    {
+      "id": "ИШ60-12",
+      "title": "Английский клуб (5-9 классы)",
+      "club": null,
+      "area": "Социально-гуманитарная",
+      "teacher": "Лунюшкина Ю.Н.",
+      "ageFrom": 10,
+      "ageTo": 15,
+      "price": 4500,
+      "pricePrev": 4000,
+      "priceUnit": "месяц",
+      "days": [
+        "tue",
+        "thu"
+      ],
+      "schedule": {
+        "tue": [
+          "17:00–18:00",
+          "18:00–19:00"
+        ],
+        "thu": [
+          "17:00–18:00",
+          "18:00–19:00"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "ИШ60",
+      "building": "Корпус на Измайловском",
+      "address": "Измайловское ш., д. 60",
+      "kind": "school",
+      "mosCode": 2497594,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2497594",
+      "source": "ИШ60"
+    },
+    {
+      "id": "ИШ60-15",
+      "title": "ГПД (5 дней в неделю) Измайловское шоссе, д.60",
+      "club": null,
+      "area": "Присмотр и уход",
+      "teacher": null,
+      "ageFrom": 1,
+      "ageTo": 5,
+      "price": 4200,
+      "pricePrev": 3850,
+      "priceUnit": "месяц",
+      "days": [],
+      "schedule": {},
+      "startDate": null,
+      "buildingCode": "ИШ60",
+      "building": "Корпус на Измайловском",
+      "address": "Измайловское ш., д. 60",
+      "kind": "school",
+      "mosCode": 2527653,
+      "enrollment": "school",
+      "signupUrl": null,
+      "source": "ИШ60"
+    },
+    {
+      "id": "ИШ60-16",
+      "title": "ГПД (3 дня в неделю) Измайловское шоссе, д.60",
+      "club": null,
+      "area": "Присмотр и уход",
+      "teacher": null,
+      "ageFrom": 1,
+      "ageTo": 5,
+      "price": 3300,
+      "pricePrev": 3050,
+      "priceUnit": "месяц",
+      "days": [],
+      "schedule": {},
+      "startDate": null,
+      "buildingCode": "ИШ60",
+      "building": "Корпус на Измайловском",
+      "address": "Измайловское ш., д. 60",
+      "kind": "school",
+      "mosCode": 2527717,
+      "enrollment": "school",
+      "signupUrl": null,
+      "source": "ИШ60"
+    },
+    {
+      "id": "ИШ60-17",
+      "title": "ГПД (2 дня в неделю) Измайловское шоссе, д.60",
+      "club": null,
+      "area": "Присмотр и уход",
+      "teacher": null,
+      "ageFrom": 1,
+      "ageTo": 5,
+      "price": 2300,
+      "pricePrev": 2100,
+      "priceUnit": "месяц",
+      "days": [],
+      "schedule": {},
+      "startDate": null,
+      "buildingCode": "ИШ60",
+      "building": "Корпус на Измайловском",
+      "address": "Измайловское ш., д. 60",
+      "kind": "school",
+      "mosCode": 2527995,
+      "enrollment": "school",
+      "signupUrl": null,
+      "source": "ИШ60"
+    },
+    {
+      "id": "ИШ60-18",
+      "title": "ГПД (1 день в неделю Измайловское шоссе, д.60",
+      "club": null,
+      "area": "Присмотр и уход",
+      "teacher": null,
+      "ageFrom": 1,
+      "ageTo": 5,
+      "price": 1300,
+      "pricePrev": 1200,
+      "priceUnit": "месяц",
+      "days": [],
+      "schedule": {},
+      "startDate": null,
+      "buildingCode": "ИШ60",
+      "building": "Корпус на Измайловском",
+      "address": "Измайловское ш., д. 60",
+      "kind": "school",
+      "mosCode": null,
+      "enrollment": "school",
+      "signupUrl": null,
+      "source": "ИШ60"
+    },
+    {
+      "id": "ИШ60-20",
+      "title": "Секреты русского языка (10 класс)",
+      "club": null,
+      "area": "Социально-гуманитарная",
+      "teacher": "Лаукарт Т.Н.",
+      "ageFrom": 14,
+      "ageTo": 17,
+      "price": 3500,
+      "pricePrev": 3300,
+      "priceUnit": "месяц",
+      "days": [],
+      "schedule": {},
+      "startDate": null,
+      "buildingCode": "ИШ60",
+      "building": "Корпус на Измайловском",
+      "address": "Измайловское ш., д. 60",
+      "kind": "school",
+      "mosCode": null,
+      "enrollment": "none",
+      "signupUrl": null,
+      "source": "ИШ60"
+    },
+    {
+      "id": "ИШ60-21",
+      "title": "Секрета английского языка (10 класс)",
+      "club": null,
+      "area": "Социально-гуманитарная",
+      "teacher": "Метелкина Г.В.",
+      "ageFrom": 14,
+      "ageTo": 17,
+      "price": 3500,
+      "pricePrev": null,
+      "priceUnit": "месяц",
+      "days": [],
+      "schedule": {},
+      "startDate": null,
+      "buildingCode": "ИШ60",
+      "building": "Корпус на Измайловском",
+      "address": "Измайловское ш., д. 60",
+      "kind": "school",
+      "mosCode": null,
+      "enrollment": "none",
+      "signupUrl": null,
+      "source": "ИШ60"
+    },
+    {
+      "id": "ИШ60-22",
+      "title": "Занимательная химия (10 класс)",
+      "club": null,
+      "area": "Социально-гуманитарная",
+      "teacher": "Лошакова С.В.",
+      "ageFrom": 14,
+      "ageTo": 17,
+      "price": 3000,
+      "pricePrev": null,
+      "priceUnit": "месяц",
+      "days": [],
+      "schedule": {},
+      "startDate": null,
+      "buildingCode": "ИШ60",
+      "building": "Корпус на Измайловском",
+      "address": "Измайловское ш., д. 60",
+      "kind": "school",
+      "mosCode": null,
+      "enrollment": "none",
+      "signupUrl": null,
+      "source": "ИШ60"
+    },
+    {
+      "id": "ИШ60-23",
+      "title": "Мини-школа \"Умники и умницы\" (ИШ 60)",
+      "club": null,
+      "area": "Социально-гуманитарная",
+      "teacher": "Силакова Е.В.",
+      "ageFrom": 6,
+      "ageTo": 7,
+      "price": 6500,
+      "pricePrev": 6000,
+      "priceUnit": "месяц",
+      "days": [
+        "tue",
+        "thu"
+      ],
+      "schedule": {
+        "tue": [
+          "16:00–18:00"
+        ],
+        "thu": [
+          "16:00–18:00"
+        ]
+      },
+      "startDate": null,
+      "buildingCode": "ИШ60",
+      "building": "Корпус на Измайловском",
+      "address": "Измайловское ш., д. 60",
+      "kind": "school",
+      "mosCode": 2504178,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2504178",
+      "source": "ИШ60"
+    },
+    {
+      "id": "Б6-3",
+      "title": "Учение с увлечением 1В",
+      "club": null,
+      "area": "Естественно-научная",
+      "teacher": "Харитонова К.П.",
+      "ageFrom": 6,
+      "ageTo": 8,
+      "price": 3500,
+      "pricePrev": 3200,
+      "priceUnit": "месяц",
+      "days": [
+        "tue",
+        "thu"
+      ],
+      "schedule": {
+        "tue": [
+          "12:35–13:20"
+        ],
+        "thu": [
+          "12:35–13:20"
+        ]
+      },
+      "startDate": "2026-09-15",
+      "buildingCode": "Б6",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 6",
+      "kind": "school",
+      "mosCode": 2497607,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2497607",
+      "source": "Б6"
+    },
+    {
+      "id": "Б6-4",
+      "title": "Домашнее задание на \"5\" 2В",
+      "club": null,
+      "area": "Естественно-научная",
+      "teacher": "Стародубцева Р.В.",
+      "ageFrom": 8,
+      "ageTo": 10,
+      "price": 3500,
+      "pricePrev": 3200,
+      "priceUnit": "месяц",
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu"
+      ],
+      "schedule": {
+        "mon": [
+          "13:40–14:25"
+        ],
+        "tue": [
+          "13:40–14:25"
+        ],
+        "wed": [
+          "13:40–14:25"
+        ],
+        "thu": [
+          "13:40–14:25"
+        ]
+      },
+      "startDate": "2026-09-15",
+      "buildingCode": "Б6",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 6",
+      "kind": "school",
+      "mosCode": 2497630,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2497630",
+      "source": "Б6"
+    },
+    {
+      "id": "Б6-5",
+      "title": "Учение с увлечением 3В",
+      "club": null,
+      "area": "Естественно-научная",
+      "teacher": "Бодрова С. Ю.",
+      "ageFrom": 8,
+      "ageTo": 10,
+      "price": 3500,
+      "pricePrev": 3200,
+      "priceUnit": "месяц",
+      "days": [
+        "mon",
+        "wed"
+      ],
+      "schedule": {
+        "mon": [
+          "13:40–14:25"
+        ],
+        "wed": [
+          "13:40–14:25"
+        ]
+      },
+      "startDate": "2026-10-01",
+      "buildingCode": "Б6",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 6",
+      "kind": "school",
+      "mosCode": 2506811,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2506811",
+      "source": "Б6"
+    },
+    {
+      "id": "Б6-6",
+      "title": "Учение с увлечением 4Е",
+      "club": null,
+      "area": "Естественно-научная",
+      "teacher": "Ухватова М.Д.",
+      "ageFrom": 9,
+      "ageTo": 11,
+      "price": 3500,
+      "pricePrev": 3200,
+      "priceUnit": "месяц",
+      "days": [
+        "tue",
+        "thu"
+      ],
+      "schedule": {
+        "tue": [
+          "13:40–14:25"
+        ],
+        "thu": [
+          "13:40–14:25"
+        ]
+      },
+      "startDate": "2026-09-15",
+      "buildingCode": "Б6",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 6",
+      "kind": "school",
+      "mosCode": 2497650,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2497650",
+      "source": "Б6"
+    },
+    {
+      "id": "Б6-7",
+      "title": "Изостудия \"Рисунок и живопись\"(начальная школа)",
+      "club": null,
+      "area": "Художественная",
+      "teacher": "Сорокина Н.Н.",
+      "ageFrom": 6,
+      "ageTo": 12,
+      "price": 3200,
+      "pricePrev": 3000,
+      "priceUnit": "месяц",
+      "days": [
+        "tue"
+      ],
+      "schedule": {
+        "tue": [
+          "14:30–16:00"
+        ]
+      },
+      "startDate": "2026-09-15",
+      "buildingCode": "Б6",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 6",
+      "kind": "school",
+      "mosCode": 2497658,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2497658",
+      "source": "Б6"
+    },
+    {
+      "id": "Б6-8",
+      "title": "Спортивные бальные танцы \"Танцстиль\"(2 часа)",
+      "club": "Школьный спортивный клуб «Ермак»",
+      "area": "Физкультурно-спортивная",
+      "teacher": "Шалимова А.Б.",
+      "ageFrom": 6,
+      "ageTo": 16,
+      "price": 4500,
+      "pricePrev": 4300,
+      "priceUnit": "месяц",
+      "days": [
+        "mon",
+        "wed"
+      ],
+      "schedule": {
+        "mon": [
+          "16:10–17:10"
+        ],
+        "wed": [
+          "16:10–17:10"
+        ]
+      },
+      "startDate": "2026-09-01",
+      "buildingCode": "Б6",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 6",
+      "kind": "school",
+      "mosCode": 2494033,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2494033",
+      "source": "Б6"
+    },
+    {
+      "id": "Б6-9",
+      "title": "Спортивные бальные танцы \"Танцстиль\"(1 час)",
+      "club": "Школьный спортивный клуб «Ермак»",
+      "area": "Физкультурно-спортивная",
+      "teacher": "Шалимова А.Б.",
+      "ageFrom": 6,
+      "ageTo": 16,
+      "price": 2600,
+      "pricePrev": 2400,
+      "priceUnit": "месяц",
+      "days": [
+        "mon"
+      ],
+      "schedule": {
+        "mon": [
+          "16:10–17:10"
+        ]
+      },
+      "startDate": "2026-09-01",
+      "buildingCode": "Б6",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 6",
+      "kind": "school",
+      "mosCode": 2494251,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2494251",
+      "source": "Б6"
+    },
+    {
+      "id": "Б6-10",
+      "title": "Спортивные бальные танцы \"Танцстиль\" (продвинутые)",
+      "club": "Школьный спортивный клуб «Ермак»",
+      "area": "Физкультурно-спортивная",
+      "teacher": "Шалимова А.Б.",
+      "ageFrom": 6,
+      "ageTo": 16,
+      "price": 2500,
+      "pricePrev": 2000,
+      "priceUnit": "месяц",
+      "days": [
+        "thu"
+      ],
+      "schedule": {
+        "thu": [
+          "19:00–21:00"
+        ]
+      },
+      "startDate": "2026-09-01",
+      "buildingCode": "Б6",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 6",
+      "kind": "school",
+      "mosCode": 2494285,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2494285",
+      "source": "Б6"
+    },
+    {
+      "id": "Б6-11",
+      "title": "каратэ-до (младшая группа)",
+      "club": "Школьный спортивный клуб «Ермак»",
+      "area": "Физкультурно-спортивная",
+      "teacher": "Кабанов В.Н.",
+      "ageFrom": 6,
+      "ageTo": 8,
+      "price": 5000,
+      "pricePrev": 4500,
+      "priceUnit": "месяц",
+      "days": [
+        "mon",
+        "wed",
+        "fri"
+      ],
+      "schedule": {
+        "mon": [
+          "17:30–18:30"
+        ],
+        "wed": [
+          "17:30–18:30"
+        ],
+        "fri": [
+          "17:30–18:30"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "Б6",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 6",
+      "kind": "school",
+      "mosCode": 2494318,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2494318",
+      "source": "Б6"
+    },
+    {
+      "id": "Б6-12",
+      "title": "каратэ-до (основная группа)",
+      "club": "Школьный спортивный клуб «Ермак»",
+      "area": "Физкультурно-спортивная",
+      "teacher": "Кабанов В.Н.",
+      "ageFrom": 8,
+      "ageTo": 11,
+      "price": 6000,
+      "pricePrev": 5500,
+      "priceUnit": "месяц",
+      "days": [
+        "mon",
+        "wed",
+        "fri"
+      ],
+      "schedule": {
+        "mon": [
+          "17:30–19:00"
+        ],
+        "wed": [
+          "17:30–19:00"
+        ],
+        "fri": [
+          "17:30–19:00"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "Б6",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 6",
+      "kind": "school",
+      "mosCode": 2494374,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2494374",
+      "source": "Б6"
+    },
+    {
+      "id": "Б6-13",
+      "title": "каратэ-до (старшая группа)",
+      "club": "Школьный спортивный клуб «Ермак»",
+      "area": "Физкультурно-спортивная",
+      "teacher": "Кабанов В.Н.",
+      "ageFrom": 12,
+      "ageTo": 65,
+      "price": 6000,
+      "pricePrev": 5500,
+      "priceUnit": "месяц",
+      "days": [
+        "mon",
+        "wed",
+        "fri"
+      ],
+      "schedule": {
+        "mon": [
+          "19:30–21:00"
+        ],
+        "wed": [
+          "19:30–21:00"
+        ],
+        "fri": [
+          "19:30–21:00"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "Б6",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 6",
+      "kind": "school",
+      "mosCode": 2494414,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2494414",
+      "source": "Б6"
+    },
+    {
+      "id": "Б6-14",
+      "title": "Мини-школа \"Дошкольная академия",
+      "club": null,
+      "area": "Социально-гуманитарная",
+      "teacher": "Паршкова О.С.",
+      "ageFrom": 5,
+      "ageTo": 7,
+      "price": 6500,
+      "pricePrev": 6000,
+      "priceUnit": "месяц",
+      "days": [
+        "tue",
+        "thu"
+      ],
+      "schedule": {
+        "tue": [
+          "16:00–18:00"
+        ],
+        "thu": [
+          "16:00–18:00"
+        ]
+      },
+      "startDate": "2026-10-01",
+      "buildingCode": "Б6",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 6",
+      "kind": "school",
+      "mosCode": 2534022,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2534022",
+      "source": "Б6"
+    },
+    {
+      "id": "Б6-15",
+      "title": "Шахматы (начальная школа)",
+      "club": "Школьный спортивный клуб «Ермак»",
+      "area": "Физкультурно-спортивная",
+      "teacher": "Сапеко Н.Н.",
+      "ageFrom": 6,
+      "ageTo": 11,
+      "price": 3500,
+      "pricePrev": 3200,
+      "priceUnit": "месяц",
+      "days": [
+        "fri"
+      ],
+      "schedule": {
+        "fri": [
+          "14:15–15:00"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "Б6",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 6",
+      "kind": "school",
+      "mosCode": 2497673,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2497673",
+      "source": "Б6"
+    },
+    {
+      "id": "Б6-16",
+      "title": "Английский клуб (5-9 классы)",
+      "club": null,
+      "area": "Социально-гуманитарная",
+      "teacher": "Лунюшкина Ю.Н.",
+      "ageFrom": 11,
+      "ageTo": 16,
+      "price": 3000,
+      "pricePrev": 2800,
+      "priceUnit": "месяц",
+      "days": [
+        "thu"
+      ],
+      "schedule": {
+        "thu": [
+          "17:00–18:30"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "Б6",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 6",
+      "kind": "school",
+      "mosCode": 2497680,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2497680",
+      "source": "Б6"
+    },
+    {
+      "id": "Б6-20",
+      "title": "ГПД (5 дней в неделю) ул. Благуша, д.6",
+      "club": null,
+      "area": "Присмотр и уход",
+      "teacher": null,
+      "ageFrom": 1,
+      "ageTo": 5,
+      "price": 4200,
+      "pricePrev": 3850,
+      "priceUnit": "месяц",
+      "days": [],
+      "schedule": {},
+      "startDate": null,
+      "buildingCode": "Б6",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 6",
+      "kind": "school",
+      "mosCode": 2502829,
+      "enrollment": "school",
+      "signupUrl": null,
+      "source": "Б6"
+    },
+    {
+      "id": "Б6-21",
+      "title": "ГПД (3 дня в неделю ул. Благуша, д.6",
+      "club": null,
+      "area": "Присмотр и уход",
+      "teacher": null,
+      "ageFrom": 1,
+      "ageTo": 5,
+      "price": 3300,
+      "pricePrev": 3050,
+      "priceUnit": "месяц",
+      "days": [],
+      "schedule": {},
+      "startDate": null,
+      "buildingCode": "Б6",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 6",
+      "kind": "school",
+      "mosCode": 2502873,
+      "enrollment": "school",
+      "signupUrl": null,
+      "source": "Б6"
+    },
+    {
+      "id": "Б6-22",
+      "title": "ГПД (2 дня в неделю) ул. Благуша, д.6",
+      "club": null,
+      "area": "Присмотр и уход",
+      "teacher": null,
+      "ageFrom": 1,
+      "ageTo": 5,
+      "price": 2300,
+      "pricePrev": 2100,
+      "priceUnit": "месяц",
+      "days": [],
+      "schedule": {},
+      "startDate": null,
+      "buildingCode": "Б6",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 6",
+      "kind": "school",
+      "mosCode": 2502913,
+      "enrollment": "school",
+      "signupUrl": null,
+      "source": "Б6"
+    },
+    {
+      "id": "Б6-23",
+      "title": "ГПД (1 день в неделю) ул. Благуша, д.6",
+      "club": null,
+      "area": "Присмотр и уход",
+      "teacher": null,
+      "ageFrom": 1,
+      "ageTo": 5,
+      "price": 1300,
+      "pricePrev": 1200,
+      "priceUnit": "месяц",
+      "days": [],
+      "schedule": {},
+      "startDate": null,
+      "buildingCode": "Б6",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 6",
+      "kind": "school",
+      "mosCode": 2502950,
+      "enrollment": "school",
+      "signupUrl": null,
+      "source": "Б6"
+    },
+    {
+      "id": "Щ36-3",
+      "title": "Занимательная математика",
+      "club": null,
+      "area": "Естественно-научная",
+      "teacher": "Масалыгина М.Г.",
+      "ageFrom": 6,
+      "ageTo": 8,
+      "price": 2000,
+      "pricePrev": 3200,
+      "priceUnit": "месяц",
+      "days": [
+        "mon"
+      ],
+      "schedule": {
+        "mon": [
+          "13:40–14:25"
+        ]
+      },
+      "startDate": "2026-10-01",
+      "buildingCode": "Щ36",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 36",
+      "kind": "school",
+      "mosCode": 2505461,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2505461",
+      "source": "Щ36"
+    },
+    {
+      "id": "Щ36-4",
+      "title": "Занимательная математика",
+      "club": null,
+      "area": "Естественно-научная",
+      "teacher": "Булгакова Е.И.",
+      "ageFrom": 6,
+      "ageTo": 8,
+      "price": 3500,
+      "pricePrev": 3200,
+      "priceUnit": "месяц",
+      "days": [
+        "tue",
+        "thu"
+      ],
+      "schedule": {
+        "tue": [
+          "12:35–13:20"
+        ],
+        "thu": [
+          "12:35–13:20"
+        ]
+      },
+      "startDate": null,
+      "buildingCode": "Щ36",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 36",
+      "kind": "school",
+      "mosCode": 2505517,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2505517",
+      "source": "Щ36"
+    },
+    {
+      "id": "Щ36-5",
+      "title": "Английский мини-клуб",
+      "club": null,
+      "area": "Социально-гуманитарная",
+      "teacher": "Коновалова Е.В.",
+      "ageFrom": 7,
+      "ageTo": 10,
+      "price": 3000,
+      "pricePrev": 2700,
+      "priceUnit": "месяц",
+      "days": [
+        "mon"
+      ],
+      "schedule": {
+        "mon": [
+          "13:40–14:40"
+        ]
+      },
+      "startDate": "2026-10-01",
+      "buildingCode": "Щ36",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 36",
+      "kind": "school",
+      "mosCode": 2502601,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2502601",
+      "source": "Щ36"
+    },
+    {
+      "id": "Щ36-6",
+      "title": "Цифровые шаги",
+      "club": null,
+      "area": "Техническая",
+      "teacher": "Коновалова Е.В.",
+      "ageFrom": 7,
+      "ageTo": 10,
+      "price": 3000,
+      "pricePrev": 2700,
+      "priceUnit": "месяц",
+      "days": [
+        "tue"
+      ],
+      "schedule": {
+        "tue": [
+          "13:40–14:40"
+        ]
+      },
+      "startDate": null,
+      "buildingCode": "Щ36",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 36",
+      "kind": "school",
+      "mosCode": null,
+      "enrollment": "none",
+      "signupUrl": null,
+      "source": "Щ36"
+    },
+    {
+      "id": "Щ36-7",
+      "title": "Учение с увлечением 2Д",
+      "club": null,
+      "area": "Естественно-научная",
+      "teacher": "Сайдакова М.Ю.",
+      "ageFrom": 7,
+      "ageTo": 9,
+      "price": 3500,
+      "pricePrev": 3200,
+      "priceUnit": "месяц",
+      "days": [
+        "tue",
+        "thu"
+      ],
+      "schedule": {
+        "tue": [
+          "13:40–14:25"
+        ],
+        "thu": [
+          "13:40–14:25"
+        ]
+      },
+      "startDate": "2026-10-01",
+      "buildingCode": "Щ36",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 36",
+      "kind": "school",
+      "mosCode": null,
+      "enrollment": "none",
+      "signupUrl": null,
+      "source": "Щ36"
+    },
+    {
+      "id": "Щ36-8",
+      "title": "Учение с увлечением 2Е",
+      "club": null,
+      "area": "Естественно-научная",
+      "teacher": "Головничева В.В.",
+      "ageFrom": 7,
+      "ageTo": 9,
+      "price": 3500,
+      "pricePrev": 3200,
+      "priceUnit": "месяц",
+      "days": [
+        "tue",
+        "thu"
+      ],
+      "schedule": {
+        "tue": [
+          "13:40–14:25"
+        ],
+        "thu": [
+          "13:40–14:25"
+        ]
+      },
+      "startDate": "2026-10-01",
+      "buildingCode": "Щ36",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 36",
+      "kind": "school",
+      "mosCode": 2502634,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2502634",
+      "source": "Щ36"
+    },
+    {
+      "id": "Щ36-9",
+      "title": "Математика: думаем, ищем, доказываем",
+      "club": null,
+      "area": "Естественно-научная",
+      "teacher": "Скоб Е.М.",
+      "ageFrom": 8,
+      "ageTo": 10,
+      "price": 3500,
+      "pricePrev": 3200,
+      "priceUnit": "месяц",
+      "days": [
+        "tue",
+        "thu"
+      ],
+      "schedule": {
+        "tue": [
+          "13:40–14:25"
+        ],
+        "thu": [
+          "13:40–14:25"
+        ]
+      },
+      "startDate": "2026-10-01",
+      "buildingCode": "Щ36",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 36",
+      "kind": "school",
+      "mosCode": 2504865,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2504865",
+      "source": "Щ36"
+    },
+    {
+      "id": "Щ36-10",
+      "title": "Инфографика",
+      "club": null,
+      "area": "Техническая",
+      "teacher": "Ярцева И.И.",
+      "ageFrom": 8,
+      "ageTo": 10,
+      "price": 2500,
+      "pricePrev": 3200,
+      "priceUnit": "месяц",
+      "days": [
+        "tue",
+        "thu"
+      ],
+      "schedule": {
+        "tue": [
+          "13:40–14:25"
+        ],
+        "thu": [
+          "13:40–14:25"
+        ]
+      },
+      "startDate": "2026-10-01",
+      "buildingCode": "Щ36",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 36",
+      "kind": "school",
+      "mosCode": 2504935,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2504935",
+      "source": "Щ36"
+    },
+    {
+      "id": "Щ36-11",
+      "title": "Радуга красок",
+      "club": null,
+      "area": "Художественная",
+      "teacher": "Лукашова Т.С.",
+      "ageFrom": 9,
+      "ageTo": 11,
+      "price": 2000,
+      "pricePrev": 3200,
+      "priceUnit": "месяц",
+      "days": [
+        "mon"
+      ],
+      "schedule": {
+        "mon": [
+          "13:40–14:25"
+        ]
+      },
+      "startDate": "2026-10-01",
+      "buildingCode": "Щ36",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 36",
+      "kind": "school",
+      "mosCode": 2504767,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2504767",
+      "source": "Щ36"
+    },
+    {
+      "id": "Щ36-12",
+      "title": "Учение с увлечением 4З",
+      "club": null,
+      "area": "Естественно-научная",
+      "teacher": "Дунаев Н.И.",
+      "ageFrom": 9,
+      "ageTo": 11,
+      "price": 3500,
+      "pricePrev": 3200,
+      "priceUnit": "месяц",
+      "days": [
+        "tue",
+        "thu"
+      ],
+      "schedule": {
+        "tue": [
+          "13:40–14:25"
+        ],
+        "thu": [
+          "13:40–14:25"
+        ]
+      },
+      "startDate": "2026-10-01",
+      "buildingCode": "Щ36",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 36",
+      "kind": "school",
+      "mosCode": 2502624,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2502624",
+      "source": "Щ36"
+    },
+    {
+      "id": "Щ36-13",
+      "title": "Веселые узелки",
+      "club": null,
+      "area": "Естественно-научная",
+      "teacher": "Сек Н.В.",
+      "ageFrom": 8,
+      "ageTo": 10,
+      "price": 3500,
+      "pricePrev": 3200,
+      "priceUnit": "месяц",
+      "days": [
+        "tue",
+        "thu"
+      ],
+      "schedule": {
+        "tue": [
+          "13:40–14:25"
+        ],
+        "thu": [
+          "13:40–14:25"
+        ]
+      },
+      "startDate": null,
+      "buildingCode": "Щ36",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 36",
+      "kind": "school",
+      "mosCode": 2505017,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2505017",
+      "source": "Щ36"
+    },
+    {
+      "id": "Щ36-14",
+      "title": "Шахматы-1(начинающие)",
+      "club": "Школьный спортивный клуб «Ермак»",
+      "area": "Физкультурно-спортивная",
+      "teacher": "Сапеко Н.Н.",
+      "ageFrom": 6,
+      "ageTo": 8,
+      "price": 3500,
+      "pricePrev": 3200,
+      "priceUnit": "месяц",
+      "days": [
+        "tue"
+      ],
+      "schedule": {
+        "tue": [
+          "13:45–14:30"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "Щ36",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 36",
+      "kind": "school",
+      "mosCode": 2497739,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2497739",
+      "source": "Щ36"
+    },
+    {
+      "id": "Щ36-15",
+      "title": "Шахматы-2 (продолжающие)",
+      "club": "Школьный спортивный клуб «Ермак»",
+      "area": "Физкультурно-спортивная",
+      "teacher": "Сапеко Н.Н.",
+      "ageFrom": 8,
+      "ageTo": 11,
+      "price": 3500,
+      "pricePrev": 3200,
+      "priceUnit": "месяц",
+      "days": [
+        "tue"
+      ],
+      "schedule": {
+        "tue": [
+          "14:45–15:30"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "Щ36",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 36",
+      "kind": "school",
+      "mosCode": 2497744,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2497744",
+      "source": "Щ36"
+    },
+    {
+      "id": "Щ36-16",
+      "title": "Шахматы-3 (продолжающие",
+      "club": "Школьный спортивный клуб «Ермак»",
+      "area": "Физкультурно-спортивная",
+      "teacher": "Сапеко Н.Н.",
+      "ageFrom": 8,
+      "ageTo": 11,
+      "price": 3500,
+      "pricePrev": 3200,
+      "priceUnit": "месяц",
+      "days": [
+        "tue"
+      ],
+      "schedule": {
+        "tue": [
+          "15:45–16:30"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "Щ36",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 36",
+      "kind": "school",
+      "mosCode": 2497749,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2497749",
+      "source": "Щ36"
+    },
+    {
+      "id": "Щ36-17",
+      "title": "Занимательный французский",
+      "club": null,
+      "area": "Социально-гуманитарная",
+      "teacher": "Байкова А.Д.",
+      "ageFrom": 7,
+      "ageTo": 13,
+      "price": 4000,
+      "pricePrev": 4000,
+      "priceUnit": "месяц",
+      "days": [
+        "tue",
+        "wed"
+      ],
+      "schedule": {
+        "tue": [
+          "15:00–16:00"
+        ],
+        "wed": [
+          "15:00–16:00"
+        ]
+      },
+      "startDate": "2026-10-01",
+      "buildingCode": "Щ36",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 36",
+      "kind": "school",
+      "mosCode": 2505572,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2505572",
+      "source": "Щ36"
+    },
+    {
+      "id": "Щ36-18",
+      "title": "Студия танца \"РА\" (бэби)",
+      "club": null,
+      "area": "Художественная",
+      "teacher": "Масленникова И.Н.",
+      "ageFrom": 6,
+      "ageTo": 17,
+      "price": 5500,
+      "pricePrev": 5000,
+      "priceUnit": "месяц",
+      "days": [
+        "mon",
+        "wed",
+        "fri"
+      ],
+      "schedule": {
+        "mon": [
+          "15:30–16:30"
+        ],
+        "wed": [
+          "15:30–16:30"
+        ],
+        "fri": [
+          "15:30–16:30"
+        ]
+      },
+      "startDate": "2026-10-01",
+      "buildingCode": "Щ36",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 36",
+      "kind": "school",
+      "mosCode": 2497753,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2497753",
+      "source": "Щ36"
+    },
+    {
+      "id": "Щ36-19",
+      "title": "Студия танца \"РА\" (начинающие)",
+      "club": null,
+      "area": "Художественная",
+      "teacher": "Масленникова И.Н.",
+      "ageFrom": 6,
+      "ageTo": 17,
+      "price": 5500,
+      "pricePrev": 5000,
+      "priceUnit": "месяц",
+      "days": [
+        "mon",
+        "wed",
+        "fri"
+      ],
+      "schedule": {
+        "mon": [
+          "16:30–18:00"
+        ],
+        "wed": [
+          "16:30–18:00"
+        ],
+        "fri": [
+          "16:30–18:00"
+        ]
+      },
+      "startDate": "2026-10-01",
+      "buildingCode": "Щ36",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 36",
+      "kind": "school",
+      "mosCode": 2497755,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2497755",
+      "source": "Щ36"
+    },
+    {
+      "id": "Щ36-20",
+      "title": "Студия танца \"РА\" (продолжающие)",
+      "club": null,
+      "area": "Художественная",
+      "teacher": "Масленникова И.Н.",
+      "ageFrom": 6,
+      "ageTo": 17,
+      "price": 5500,
+      "pricePrev": 5000,
+      "priceUnit": "месяц",
+      "days": [
+        "mon",
+        "wed",
+        "fri"
+      ],
+      "schedule": {
+        "mon": [
+          "18:00–19:30"
+        ],
+        "wed": [
+          "18:00–19:30"
+        ],
+        "fri": [
+          "18:00–19:30"
+        ]
+      },
+      "startDate": "2026-10-01",
+      "buildingCode": "Щ36",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 36",
+      "kind": "school",
+      "mosCode": 2497761,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2497761",
+      "source": "Щ36"
+    },
+    {
+      "id": "Щ36-21",
+      "title": "Спортивные бальные танцы \"ЛибертЭ\" (профи)",
+      "club": "Школьный спортивный клуб «Ермак»",
+      "area": "Художественная",
+      "teacher": "Аничхин И.А.",
+      "ageFrom": 6,
+      "ageTo": 17,
+      "price": 7500,
+      "pricePrev": 7000,
+      "priceUnit": "месяц",
+      "days": [
+        "tue",
+        "thu",
+        "sat"
+      ],
+      "schedule": {
+        "tue": [
+          "15:30–17:00"
+        ],
+        "thu": [
+          "15:30–17:00"
+        ],
+        "sat": [
+          "10:00–11:30"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "Щ36",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 36",
+      "kind": "school",
+      "mosCode": 2495320,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2495320",
+      "source": "Щ36"
+    },
+    {
+      "id": "Щ36-22",
+      "title": "Спортивные бальные танцы \"ЛибертЭ\" (начинающие)",
+      "club": "Школьный спортивный клуб «Ермак»",
+      "area": "Художественная",
+      "teacher": "Аничхин И.А.",
+      "ageFrom": 6,
+      "ageTo": 17,
+      "price": 7500,
+      "pricePrev": 7000,
+      "priceUnit": "месяц",
+      "days": [
+        "tue",
+        "thu",
+        "sat"
+      ],
+      "schedule": {
+        "tue": [
+          "17:00–18:30"
+        ],
+        "thu": [
+          "17:00–18:30"
+        ],
+        "sat": [
+          "11:30–13:00"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "Щ36",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 36",
+      "kind": "school",
+      "mosCode": 2495324,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2495324",
+      "source": "Щ36"
+    },
+    {
+      "id": "Щ36-23",
+      "title": "Спортивные бальные танцы \"ЛибертЭ\" (продолжающие)",
+      "club": "Школьный спортивный клуб «Ермак»",
+      "area": "Художественная",
+      "teacher": "Аничхин И.А.",
+      "ageFrom": 6,
+      "ageTo": 17,
+      "price": 7500,
+      "pricePrev": 7000,
+      "priceUnit": "месяц",
+      "days": [
+        "tue",
+        "thu",
+        "sat"
+      ],
+      "schedule": {
+        "tue": [
+          "18:30–20:00"
+        ],
+        "thu": [
+          "18:30–20:00"
+        ],
+        "sat": [
+          "13:00–14:30"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "Щ36",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 36",
+      "kind": "school",
+      "mosCode": 2495337,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2495337",
+      "source": "Щ36"
+    },
+    {
+      "id": "Щ36-24",
+      "title": "Художественная гимнастика \"Алые паруса\"(группа здоровья)",
+      "club": "Школьный спортивный клуб «Ермак»",
+      "area": "Физкультурно-спортивная",
+      "teacher": "Косенко В.В.",
+      "ageFrom": 3,
+      "ageTo": 16,
+      "price": 7200,
+      "pricePrev": 5000,
+      "priceUnit": "месяц",
+      "days": [
+        "mon",
+        "wed"
+      ],
+      "schedule": {
+        "mon": [
+          "16:30–17:30"
+        ],
+        "wed": [
+          "16:30–17:30"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "Щ36",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 36",
+      "kind": "school",
+      "mosCode": 2495344,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2495344",
+      "source": "Щ36"
+    },
+    {
+      "id": "Щ36-25",
+      "title": "Художественная гимнастика \"Алые паруса\"(группа начальной подготовки)",
+      "club": "Школьный спортивный клуб «Ермак»",
+      "area": "Физкультурно-спортивная",
+      "teacher": "Косенко В.В.",
+      "ageFrom": 3,
+      "ageTo": 16,
+      "price": 10800,
+      "pricePrev": 6800,
+      "priceUnit": "месяц",
+      "days": [
+        "mon",
+        "wed"
+      ],
+      "schedule": {
+        "mon": [
+          "17:30–19:30"
+        ],
+        "wed": [
+          "17:30–19:30"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "Щ36",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 36",
+      "kind": "school",
+      "mosCode": 2495350,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2495350",
+      "source": "Щ36"
+    },
+    {
+      "id": "Щ36-26",
+      "title": "Художественная гимнастика \"Алые паруса\"(группа спортивного совершенствования)",
+      "club": "Школьный спортивный клуб «Ермак»",
+      "area": "Физкультурно-спортивная",
+      "teacher": "Косенко В.В.",
+      "ageFrom": 5,
+      "ageTo": 16,
+      "price": 12240,
+      "pricePrev": 7600,
+      "priceUnit": "месяц",
+      "days": [
+        "tue",
+        "thu"
+      ],
+      "schedule": {
+        "tue": [
+          "16:00–19:30"
+        ],
+        "thu": [
+          "16:00–19:30"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "Щ36",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 36",
+      "kind": "school",
+      "mosCode": 2495356,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2495356",
+      "source": "Щ36"
+    },
+    {
+      "id": "Щ36-27",
+      "title": "командная спортивная гимнастика \"Каскад",
+      "club": "Школьный спортивный клуб «Ермак»",
+      "area": "Физкультурно-спортивная",
+      "teacher": "Степанова Н.В.",
+      "ageFrom": 6,
+      "ageTo": 11,
+      "price": 4500,
+      "pricePrev": 3500,
+      "priceUnit": "месяц",
+      "days": [
+        "mon",
+        "wed"
+      ],
+      "schedule": {
+        "mon": [
+          "14:30–16:00"
+        ],
+        "wed": [
+          "14:30–16:00"
+        ]
+      },
+      "startDate": null,
+      "buildingCode": "Щ36",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 36",
+      "kind": "school",
+      "mosCode": 2512657,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2512657",
+      "source": "Щ36"
+    },
+    {
+      "id": "Щ36-28",
+      "title": "Индорхоккей 5S (начинающие)",
+      "club": "Школьный спортивный клуб «Ермак»",
+      "area": "Физкультурно-спортивная",
+      "teacher": "Новикова Т.А.",
+      "ageFrom": 6,
+      "ageTo": 11,
+      "price": 3000,
+      "pricePrev": 2500,
+      "priceUnit": "месяц",
+      "days": [
+        "mon",
+        "wed"
+      ],
+      "schedule": {
+        "mon": [
+          "15:30–16:30"
+        ],
+        "wed": [
+          "15:30–16:30"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "Щ36",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 36",
+      "kind": "school",
+      "mosCode": 2495375,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2495375",
+      "source": "Щ36"
+    },
+    {
+      "id": "Щ36-29",
+      "title": "Индорхоккей 5S (продолжение обучения)",
+      "club": "Школьный спортивный клуб «Ермак»",
+      "area": "Физкультурно-спортивная",
+      "teacher": "Новикова Т.А.",
+      "ageFrom": 10,
+      "ageTo": 17,
+      "price": 4000,
+      "pricePrev": 3500,
+      "priceUnit": "месяц",
+      "days": [
+        "mon",
+        "wed",
+        "fri"
+      ],
+      "schedule": {
+        "mon": [
+          "16:45–18:45"
+        ],
+        "wed": [
+          "16:45–18:45"
+        ],
+        "fri": [
+          "17:00–19:00"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "Щ36",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 36",
+      "kind": "school",
+      "mosCode": 2495400,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2495400",
+      "source": "Щ36"
+    },
+    {
+      "id": "Щ36-30",
+      "title": "Мини-школа \"Золотой ключик",
+      "club": null,
+      "area": "Социально-гуманитарная",
+      "teacher": "Сек Н.В. Коновалова Е.В. Громова Е.Н.",
+      "ageFrom": 5,
+      "ageTo": 7,
+      "price": 6500,
+      "pricePrev": 6000,
+      "priceUnit": "месяц",
+      "days": [
+        "tue",
+        "thu"
+      ],
+      "schedule": {
+        "tue": [
+          "16:00–18:00"
+        ],
+        "thu": [
+          "16:00–18:00"
+        ]
+      },
+      "startDate": "2026-10-01",
+      "buildingCode": "Щ36",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 36",
+      "kind": "school",
+      "mosCode": 2504477,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2504477",
+      "source": "Щ36"
+    },
+    {
+      "id": "Щ36-32",
+      "title": "ГПД (5 дней в неделю) ул. Щербаковская, д.36А",
+      "club": null,
+      "area": "Присмотр и уход",
+      "teacher": "Ухватова М.Д.",
+      "ageFrom": null,
+      "ageTo": null,
+      "price": 4200,
+      "pricePrev": 3850,
+      "priceUnit": "месяц",
+      "days": [],
+      "schedule": {},
+      "startDate": null,
+      "buildingCode": "Щ36",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 36",
+      "kind": "school",
+      "mosCode": 2502120,
+      "enrollment": "school",
+      "signupUrl": null,
+      "source": "Щ36"
+    },
+    {
+      "id": "Щ36-33",
+      "title": "ГПД (3 дня в неделю) ул. Щербаковская, д.36А",
+      "club": null,
+      "area": "Присмотр и уход",
+      "teacher": "Ухватова М.Д.",
+      "ageFrom": null,
+      "ageTo": null,
+      "price": 3300,
+      "pricePrev": 3050,
+      "priceUnit": "месяц",
+      "days": [],
+      "schedule": {},
+      "startDate": null,
+      "buildingCode": "Щ36",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 36",
+      "kind": "school",
+      "mosCode": 2502124,
+      "enrollment": "school",
+      "signupUrl": null,
+      "source": "Щ36"
+    },
+    {
+      "id": "Щ36-34",
+      "title": "ГПД (2 дня в неделю) ул. Щербаковская, д.36А",
+      "club": null,
+      "area": "Присмотр и уход",
+      "teacher": "Ухватова М.Д.",
+      "ageFrom": null,
+      "ageTo": null,
+      "price": 2300,
+      "pricePrev": 2100,
+      "priceUnit": "месяц",
+      "days": [],
+      "schedule": {},
+      "startDate": null,
+      "buildingCode": "Щ36",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 36",
+      "kind": "school",
+      "mosCode": 2502132,
+      "enrollment": "school",
+      "signupUrl": null,
+      "source": "Щ36"
+    },
+    {
+      "id": "Щ36-35",
+      "title": "ГПД (1 день в неделю) ул. Щербаковская, д.36А",
+      "club": null,
+      "area": "Присмотр и уход",
+      "teacher": "Ухватова М.Д.",
+      "ageFrom": null,
+      "ageTo": null,
+      "price": 1300,
+      "pricePrev": 1200,
+      "priceUnit": "месяц",
+      "days": [],
+      "schedule": {},
+      "startDate": null,
+      "buildingCode": "Щ36",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 36",
+      "kind": "school",
+      "mosCode": 2502136,
+      "enrollment": "school",
+      "signupUrl": null,
+      "source": "Щ36"
+    },
+    {
+      "id": "Щ36-37",
+      "title": "Решение сложных задач по физике",
+      "club": null,
+      "area": "Естественно-научная",
+      "teacher": "Юшкина Е.В.",
+      "ageFrom": 12,
+      "ageTo": 18,
+      "price": 3300,
+      "pricePrev": 3000,
+      "priceUnit": "месяц",
+      "days": [
+        "mon"
+      ],
+      "schedule": {
+        "mon": [
+          "15:30–17:30"
+        ]
+      },
+      "startDate": "2026-10-01",
+      "buildingCode": "Щ36",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 36",
+      "kind": "school",
+      "mosCode": 2502643,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2502643",
+      "source": "Щ36"
+    },
+    {
+      "id": "Щ36-38",
+      "title": "Познавтельная геграфия (9 класс)",
+      "club": null,
+      "area": "Естественно-научная",
+      "teacher": "Меркулов  М.А.",
+      "ageFrom": 14,
+      "ageTo": 16,
+      "price": 3000,
+      "pricePrev": 2700,
+      "priceUnit": "месяц",
+      "days": [
+        "mon"
+      ],
+      "schedule": {
+        "mon": [
+          "16:30–17:15"
+        ]
+      },
+      "startDate": "2026-10-01",
+      "buildingCode": "Щ36",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 36",
+      "kind": "school",
+      "mosCode": 2502675,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2502675",
+      "source": "Щ36"
+    },
+    {
+      "id": "Щ36-39",
+      "title": "Волшебная кисточка (1-4 классы)",
+      "club": null,
+      "area": "Художественная",
+      "teacher": "Мурашкина Т.В.",
+      "ageFrom": 6,
+      "ageTo": 12,
+      "price": 2800,
+      "pricePrev": 2500,
+      "priceUnit": "месяц",
+      "days": [],
+      "schedule": {},
+      "startDate": "2026-10-01",
+      "buildingCode": "Щ36",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 36",
+      "kind": "school",
+      "mosCode": 2505629,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2505629",
+      "source": "Щ36"
+    },
+    {
+      "id": "БЖ9-3",
+      "title": "Клуб любознательных (начальная школа)",
+      "club": null,
+      "area": "Естественно-научная",
+      "teacher": "Сафаралиева Г.Э.",
+      "ageFrom": 6,
+      "ageTo": 8,
+      "price": 2000,
+      "pricePrev": null,
+      "priceUnit": "месяц",
+      "days": [
+        "tue"
+      ],
+      "schedule": {
+        "tue": [
+          "13:30–14:15"
+        ]
+      },
+      "startDate": "2026-10-01",
+      "buildingCode": "БЖ9",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 9",
+      "kind": "school",
+      "mosCode": 2497764,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2497764",
+      "source": "БЖ9"
+    },
+    {
+      "id": "БЖ9-4",
+      "title": "Учение с увлечением 1Ж",
+      "club": null,
+      "area": "Естественно-научная",
+      "teacher": "Голубева М.В.",
+      "ageFrom": 6,
+      "ageTo": 8,
+      "price": 3500,
+      "pricePrev": 3200,
+      "priceUnit": "месяц",
+      "days": [
+        "tue",
+        "thu"
+      ],
+      "schedule": {
+        "tue": [
+          "13:40–14:25"
+        ],
+        "thu": [
+          "13:40–14:25"
+        ]
+      },
+      "startDate": null,
+      "buildingCode": "БЖ9",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 9",
+      "kind": "school",
+      "mosCode": null,
+      "enrollment": "none",
+      "signupUrl": null,
+      "source": "БЖ9"
+    },
+    {
+      "id": "БЖ9-5",
+      "title": "Домашнее задание на 5 2З",
+      "club": null,
+      "area": "Естественно-научная",
+      "teacher": "Тимощук С.А.",
+      "ageFrom": 7,
+      "ageTo": 9,
+      "price": 3000,
+      "pricePrev": 3200,
+      "priceUnit": "месяц",
+      "days": [
+        "tue",
+        "thu"
+      ],
+      "schedule": {
+        "tue": [
+          "13:40–14:25"
+        ],
+        "thu": [
+          "13:40–14:25"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "БЖ9",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 9",
+      "kind": "school",
+      "mosCode": 2497768,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2497768",
+      "source": "БЖ9"
+    },
+    {
+      "id": "БЖ9-6",
+      "title": "Домашнее задание на 5 2Ж",
+      "club": null,
+      "area": "Естественно-научная",
+      "teacher": "Лукоянова Е.Е.",
+      "ageFrom": 7,
+      "ageTo": 9,
+      "price": 3000,
+      "pricePrev": 3200,
+      "priceUnit": "месяц",
+      "days": [
+        "tue",
+        "thu"
+      ],
+      "schedule": {
+        "tue": [
+          "13:40–14:24"
+        ],
+        "thu": [
+          "13:40–14:24"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "БЖ9",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 9",
+      "kind": "school",
+      "mosCode": 2497898,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2497898",
+      "source": "БЖ9"
+    },
+    {
+      "id": "БЖ9-7",
+      "title": "Учимся писать без ошибок 2Ж",
+      "club": null,
+      "area": "Естественно-научная",
+      "teacher": "Лукоянова Е.Е.",
+      "ageFrom": 7,
+      "ageTo": 9,
+      "price": 3000,
+      "pricePrev": null,
+      "priceUnit": "месяц",
+      "days": [
+        "wed"
+      ],
+      "schedule": {
+        "wed": [
+          "13:30–14:15"
+        ]
+      },
+      "startDate": "2026-10-01",
+      "buildingCode": "БЖ9",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 9",
+      "kind": "school",
+      "mosCode": 2498268,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2498268",
+      "source": "БЖ9"
+    },
+    {
+      "id": "БЖ9-8",
+      "title": "Учимся писать без ошибок 2З",
+      "club": null,
+      "area": "Естественно-научная",
+      "teacher": "Тимощук С.А.",
+      "ageFrom": 7,
+      "ageTo": 9,
+      "price": 3000,
+      "pricePrev": null,
+      "priceUnit": "месяц",
+      "days": [
+        "wed"
+      ],
+      "schedule": {
+        "wed": [
+          "13:30–14:15"
+        ]
+      },
+      "startDate": "2026-10-01",
+      "buildingCode": "БЖ9",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 9",
+      "kind": "school",
+      "mosCode": 2498272,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2498272",
+      "source": "БЖ9"
+    },
+    {
+      "id": "БЖ9-9",
+      "title": "Учимся решать задачи 4И",
+      "club": null,
+      "area": "Естественно-научная",
+      "teacher": "Мокрецова Е.М.",
+      "ageFrom": 9,
+      "ageTo": 11,
+      "price": 3000,
+      "pricePrev": null,
+      "priceUnit": "месяц",
+      "days": [
+        "wed"
+      ],
+      "schedule": {
+        "wed": [
+          "14:30–15:15"
+        ]
+      },
+      "startDate": "2026-10-01",
+      "buildingCode": "БЖ9",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 9",
+      "kind": "school",
+      "mosCode": 2498275,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2498275",
+      "source": "БЖ9"
+    },
+    {
+      "id": "БЖ9-10",
+      "title": "Захватывающий мир информатики группа 1 (3 класс)",
+      "club": null,
+      "area": "Техническая",
+      "teacher": "Рыжова П.В.",
+      "ageFrom": 6,
+      "ageTo": 11,
+      "price": 3300,
+      "pricePrev": 3000,
+      "priceUnit": "месяц",
+      "days": [
+        "thu"
+      ],
+      "schedule": {
+        "thu": [
+          "14:00–14:45"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "БЖ9",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 9",
+      "kind": "school",
+      "mosCode": 2498234,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2498234",
+      "source": "БЖ9"
+    },
+    {
+      "id": "БЖ9-11",
+      "title": "Захватывающий мир информатики группа 2 (3 класс)",
+      "club": null,
+      "area": "Техническая",
+      "teacher": "Рыжова П.В.",
+      "ageFrom": 6,
+      "ageTo": 11,
+      "price": 3300,
+      "pricePrev": 3000,
+      "priceUnit": "месяц",
+      "days": [
+        "tue"
+      ],
+      "schedule": {
+        "tue": [
+          "14:00–14:45"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "БЖ9",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 9",
+      "kind": "school",
+      "mosCode": 2498250,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2498250",
+      "source": "БЖ9"
+    },
+    {
+      "id": "БЖ9-12",
+      "title": "Изостудия \"Рисунок и живопись\" 1 группа",
+      "club": null,
+      "area": "Художественная",
+      "teacher": "Сорокина Н.Н.",
+      "ageFrom": 6,
+      "ageTo": 11,
+      "price": 3200,
+      "pricePrev": 3000,
+      "priceUnit": "месяц",
+      "days": [
+        "wed"
+      ],
+      "schedule": {
+        "wed": [
+          "15:30–17:00"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "БЖ9",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 9",
+      "kind": "school",
+      "mosCode": 2498254,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2498254",
+      "source": "БЖ9"
+    },
+    {
+      "id": "БЖ9-13",
+      "title": "Изостудия \"Рисунок и живопись\" 2 группа",
+      "club": null,
+      "area": "Художественная",
+      "teacher": "Сорокина Н.Н.",
+      "ageFrom": 6,
+      "ageTo": 11,
+      "price": 3200,
+      "pricePrev": 3000,
+      "priceUnit": "месяц",
+      "days": [
+        "thu"
+      ],
+      "schedule": {
+        "thu": [
+          "15:30–17:00"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "БЖ9",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 9",
+      "kind": "school",
+      "mosCode": 2498256,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2498256",
+      "source": "БЖ9"
+    },
+    {
+      "id": "БЖ9-14",
+      "title": "Спортивные бальные танцы \"Танцстиль",
+      "club": "Школьный спортивный клуб «Ермак»",
+      "area": "Физкультурно-спортивная",
+      "teacher": "Шалимова А.Б.",
+      "ageFrom": 6,
+      "ageTo": 11,
+      "price": 4500,
+      "pricePrev": 4300,
+      "priceUnit": "месяц",
+      "days": [
+        "tue",
+        "thu"
+      ],
+      "schedule": {
+        "tue": [
+          "17:00–18:00"
+        ],
+        "thu": [
+          "17:00–18:00"
+        ]
+      },
+      "startDate": "2026-09-01",
+      "buildingCode": "БЖ9",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 9",
+      "kind": "school",
+      "mosCode": 2495500,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2495500",
+      "source": "БЖ9"
+    },
+    {
+      "id": "БЖ9-15",
+      "title": "Бисероплетение (начинающие)",
+      "club": null,
+      "area": "Художественная",
+      "teacher": "Жиглова Т.М.",
+      "ageFrom": 6,
+      "ageTo": 11,
+      "price": 3300,
+      "pricePrev": 3000,
+      "priceUnit": "месяц",
+      "days": [
+        "tue"
+      ],
+      "schedule": {
+        "tue": [
+          "14:30–15:30"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "БЖ9",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 9",
+      "kind": "school",
+      "mosCode": 2498260,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2498260",
+      "source": "БЖ9"
+    },
+    {
+      "id": "БЖ9-16",
+      "title": "Бисероплетение (продолжающие)",
+      "club": null,
+      "area": "Художественная",
+      "teacher": "Жиглова Т.М.",
+      "ageFrom": 6,
+      "ageTo": 11,
+      "price": 3300,
+      "pricePrev": 3000,
+      "priceUnit": "месяц",
+      "days": [
+        "tue"
+      ],
+      "schedule": {
+        "tue": [
+          "15:30–16:30"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "БЖ9",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 9",
+      "kind": "school",
+      "mosCode": 2498264,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2498264",
+      "source": "БЖ9"
+    },
+    {
+      "id": "БЖ9-17",
+      "title": "Шахматы (начинающие)",
+      "club": "Школьный спортивный клуб «Ермак»",
+      "area": "Физкультурно-спортивная",
+      "teacher": "Сапеко Н.Н.",
+      "ageFrom": 6,
+      "ageTo": 11,
+      "price": 3500,
+      "pricePrev": 3200,
+      "priceUnit": "месяц",
+      "days": [
+        "thu"
+      ],
+      "schedule": {
+        "thu": [
+          "13:45–14:30"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "БЖ9",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 9",
+      "kind": "school",
+      "mosCode": 2497867,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2497867",
+      "source": "БЖ9"
+    },
+    {
+      "id": "БЖ9-18",
+      "title": "Шахматы 1 (продолжающие)",
+      "club": "Школьный спортивный клуб «Ермак»",
+      "area": "Физкультурно-спортивная",
+      "teacher": "Сапеко Н.Н.",
+      "ageFrom": 6,
+      "ageTo": 11,
+      "price": 3500,
+      "pricePrev": 3200,
+      "priceUnit": "месяц",
+      "days": [
+        "thu"
+      ],
+      "schedule": {
+        "thu": [
+          "14:45–15:30"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "БЖ9",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 9",
+      "kind": "school",
+      "mosCode": 2497870,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2497870",
+      "source": "БЖ9"
+    },
+    {
+      "id": "БЖ9-19",
+      "title": "Шахматы 2 (продолжающие)",
+      "club": "Школьный спортивный клуб «Ермак»",
+      "area": "Физкультурно-спортивная",
+      "teacher": "Сапеко Н.Н.",
+      "ageFrom": 6,
+      "ageTo": 11,
+      "price": 3500,
+      "pricePrev": 3200,
+      "priceUnit": "месяц",
+      "days": [
+        "thu"
+      ],
+      "schedule": {
+        "thu": [
+          "15:45–16:30"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "БЖ9",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 9",
+      "kind": "school",
+      "mosCode": 2497873,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2497873",
+      "source": "БЖ9"
+    },
+    {
+      "id": "БЖ9-20",
+      "title": "Баскетбол \"Баланс",
+      "club": "Школьный спортивный клуб «Ермак»",
+      "area": "Физкультурно-спортивная",
+      "teacher": "Сафонов А.О.",
+      "ageFrom": 6,
+      "ageTo": 12,
+      "price": 4500,
+      "pricePrev": 4000,
+      "priceUnit": "месяц",
+      "days": [
+        "mon",
+        "wed"
+      ],
+      "schedule": {
+        "mon": [
+          "15:30–17:00"
+        ],
+        "wed": [
+          "15:30–17:00"
+        ]
+      },
+      "startDate": "2026-09-02",
+      "buildingCode": "БЖ9",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 9",
+      "kind": "school",
+      "mosCode": 2495531,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2495531",
+      "source": "БЖ9"
+    },
+    {
+      "id": "БЖ9-21",
+      "title": "Баскетбол \"Баланс",
+      "club": "Школьный спортивный клуб «Ермак»",
+      "area": "Физкультурно-спортивная",
+      "teacher": "Сафонов А.О.",
+      "ageFrom": 6,
+      "ageTo": 12,
+      "price": 6000,
+      "pricePrev": null,
+      "priceUnit": "месяц",
+      "days": [
+        "mon",
+        "wed",
+        "fri"
+      ],
+      "schedule": {
+        "mon": [
+          "13:30–15:00"
+        ],
+        "wed": [
+          "13:30–15:00"
+        ],
+        "fri": [
+          "13:30–15:00"
+        ]
+      },
+      "startDate": "2026-09-02",
+      "buildingCode": "БЖ9",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 9",
+      "kind": "school",
+      "mosCode": 2495689,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2495689",
+      "source": "БЖ9"
+    },
+    {
+      "id": "БЖ9-22",
+      "title": "Школьный спортивный клуб \"Ермак\" - Каратэ-до (1-5 классы)",
+      "club": null,
+      "area": "Физкультурно-спортивная",
+      "teacher": "Трифонов Н.Н.",
+      "ageFrom": 6,
+      "ageTo": 12,
+      "price": 4000,
+      "pricePrev": 3800,
+      "priceUnit": "месяц",
+      "days": [
+        "tue",
+        "thu"
+      ],
+      "schedule": {
+        "tue": [
+          "13:45–14:45"
+        ],
+        "thu": [
+          "14:45–15:45"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "БЖ9",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 9",
+      "kind": "school",
+      "mosCode": 2506895,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2506895",
+      "source": "БЖ9"
+    },
+    {
+      "id": "БЖ9-23",
+      "title": "Содружество школьных театров \"Художественное слово\" (музыкальный театр)",
+      "club": null,
+      "area": "Художественная",
+      "teacher": "Хроменко Т.Е.",
+      "ageFrom": 6,
+      "ageTo": 12,
+      "price": 3300,
+      "pricePrev": 3000,
+      "priceUnit": "месяц",
+      "days": [
+        "tue"
+      ],
+      "schedule": {
+        "tue": [
+          "13:45–14:30"
+        ]
+      },
+      "startDate": "2026-09-21",
+      "buildingCode": "БЖ9",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 9",
+      "kind": "school",
+      "mosCode": 2498284,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2498284",
+      "source": "БЖ9"
+    },
+    {
+      "id": "БЖ9-24",
+      "title": "Школьный спортивный клуб \"Ермак\"художественная гимнастика \"Альфа-Tim",
+      "club": null,
+      "area": "Физкультурно-спортивная",
+      "teacher": "Семочкина Е.А.",
+      "ageFrom": 3,
+      "ageTo": 11,
+      "price": 5000,
+      "pricePrev": 6500,
+      "priceUnit": "месяц",
+      "days": [
+        "tue",
+        "thu"
+      ],
+      "schedule": {
+        "tue": [
+          "16:00–19:00"
+        ],
+        "thu": [
+          "16:00–19:00"
+        ]
+      },
+      "startDate": "2026-09-01",
+      "buildingCode": "БЖ9",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 9",
+      "kind": "school",
+      "mosCode": 2495727,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2495727",
+      "source": "БЖ9"
+    },
+    {
+      "id": "БЖ9-25",
+      "title": "Английский язык EngleoKids. 1 класс (начинающие) группа 2",
+      "club": null,
+      "area": "Социально-гуманитарная",
+      "teacher": "Львович М.В.",
+      "ageFrom": 6,
+      "ageTo": 8,
+      "price": 4300,
+      "pricePrev": null,
+      "priceUnit": "месяц",
+      "days": [
+        "tue",
+        "thu"
+      ],
+      "schedule": {
+        "tue": [
+          "13:30–14:15"
+        ],
+        "thu": [
+          "13:30–14:15"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "БЖ9",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 9",
+      "kind": "school",
+      "mosCode": 2529257,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2529257",
+      "source": "БЖ9"
+    },
+    {
+      "id": "БЖ9-26",
+      "title": "Английский язык EngleoKids. 1 класс (начинающие)",
+      "club": null,
+      "area": "Социально-гуманитарная",
+      "teacher": "Львович М.В.",
+      "ageFrom": 6,
+      "ageTo": 8,
+      "price": 4300,
+      "pricePrev": 4000,
+      "priceUnit": "месяц",
+      "days": [
+        "mon",
+        "fri"
+      ],
+      "schedule": {
+        "mon": [
+          "13:30–14:15"
+        ],
+        "fri": [
+          "13:30–14:15"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "БЖ9",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 9",
+      "kind": "school",
+      "mosCode": 2497772,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2497772",
+      "source": "БЖ9"
+    },
+    {
+      "id": "БЖ9-27",
+      "title": "Английский язык EngleoKids. 2 класс (продолжающие, чтение) группа 1",
+      "club": null,
+      "area": "Без направленности",
+      "teacher": "Львович М.В.",
+      "ageFrom": 7,
+      "ageTo": 9,
+      "price": 4300,
+      "pricePrev": 4000,
+      "priceUnit": "месяц",
+      "days": [
+        "mon",
+        "wed"
+      ],
+      "schedule": {
+        "mon": [
+          "14:30–15:30"
+        ],
+        "wed": [
+          "14:00–15:00"
+        ]
+      },
+      "startDate": "2026-09-02",
+      "buildingCode": "БЖ9",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 9",
+      "kind": "school",
+      "mosCode": 2497778,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2497778",
+      "source": "БЖ9"
+    },
+    {
+      "id": "БЖ9-28",
+      "title": "Английский язык EngleoKids. 2 класс (продолжающие, чтение) группа 2",
+      "club": null,
+      "area": "Без направленности",
+      "teacher": "Львович М.В.",
+      "ageFrom": 7,
+      "ageTo": 9,
+      "price": 4300,
+      "pricePrev": 4000,
+      "priceUnit": "месяц",
+      "days": [
+        "tue",
+        "thu"
+      ],
+      "schedule": {
+        "tue": [
+          "16:00–17:00"
+        ],
+        "thu": [
+          "16:00–17:00"
+        ]
+      },
+      "startDate": "2026-09-02",
+      "buildingCode": "БЖ9",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 9",
+      "kind": "school",
+      "mosCode": 2497854,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2497854",
+      "source": "БЖ9"
+    },
+    {
+      "id": "БЖ9-29",
+      "title": "Английский язык EngleoKids. 3 класс (продолжающие, письмо) группа 1",
+      "club": null,
+      "area": "Без направленности",
+      "teacher": "Львович М.В.",
+      "ageFrom": 8,
+      "ageTo": 10,
+      "price": 4300,
+      "pricePrev": 4000,
+      "priceUnit": "месяц",
+      "days": [
+        "mon",
+        "wed",
+        "fri"
+      ],
+      "schedule": {
+        "mon": [
+          "17:00–18:00"
+        ],
+        "wed": [
+          "17:00–18:00"
+        ],
+        "fri": [
+          "17:00–18:00"
+        ]
+      },
+      "startDate": "2026-09-02",
+      "buildingCode": "БЖ9",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 9",
+      "kind": "school",
+      "mosCode": 2497856,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2497856",
+      "source": "БЖ9"
+    },
+    {
+      "id": "БЖ9-30",
+      "title": "Английский язык EngleoKids. 3 класс (продолжающие, письмо) группа 2",
+      "club": null,
+      "area": "Без направленности",
+      "teacher": "Львович М.В.",
+      "ageFrom": 8,
+      "ageTo": 10,
+      "price": 4300,
+      "pricePrev": 4000,
+      "priceUnit": "месяц",
+      "days": [
+        "tue",
+        "thu"
+      ],
+      "schedule": {
+        "tue": [
+          "17:30–18:30"
+        ],
+        "thu": [
+          "17:30–18:30"
+        ]
+      },
+      "startDate": "2026-09-02",
+      "buildingCode": "БЖ9",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 9",
+      "kind": "school",
+      "mosCode": 2497859,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2497859",
+      "source": "БЖ9"
+    },
+    {
+      "id": "БЖ9-31",
+      "title": "Английский язык EngleoKids. 4 класс (продолжающие, письмо и грамматика) группа 1",
+      "club": null,
+      "area": "Без направленности",
+      "teacher": "Львович М.В.",
+      "ageFrom": 8,
+      "ageTo": 11,
+      "price": 4300,
+      "pricePrev": 4000,
+      "priceUnit": "месяц",
+      "days": [
+        "tue",
+        "thu"
+      ],
+      "schedule": {
+        "tue": [
+          "14:30–15:30"
+        ],
+        "thu": [
+          "14:30–15:30"
+        ]
+      },
+      "startDate": "2026-09-02",
+      "buildingCode": "БЖ9",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 9",
+      "kind": "school",
+      "mosCode": 2497863,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2497863",
+      "source": "БЖ9"
+    },
+    {
+      "id": "БЖ9-32",
+      "title": "Английский язык EngleoKids. 4 класс (продолжающие, письмо и грамматика) группа 2",
+      "club": null,
+      "area": "Без направленности",
+      "teacher": "Львович М.В.",
+      "ageFrom": 8,
+      "ageTo": 11,
+      "price": 4300,
+      "pricePrev": 4000,
+      "priceUnit": "месяц",
+      "days": [
+        "wed",
+        "fri"
+      ],
+      "schedule": {
+        "wed": [
+          "15:30–16:30"
+        ],
+        "fri": [
+          "14:45–15:45"
+        ]
+      },
+      "startDate": "2026-09-01",
+      "buildingCode": "БЖ9",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 9",
+      "kind": "school",
+      "mosCode": 2497866,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2497866",
+      "source": "БЖ9"
+    },
+    {
+      "id": "БЖ9-33",
+      "title": "Мини-школа \"АБВГДЕЙка",
+      "club": null,
+      "area": "Социально-гуманитарная",
+      "teacher": "Куприянова А.В. Лютикова В.Б.",
+      "ageFrom": 6,
+      "ageTo": 7,
+      "price": 6500,
+      "pricePrev": 6000,
+      "priceUnit": "месяц",
+      "days": [
+        "tue",
+        "thu"
+      ],
+      "schedule": {
+        "tue": [
+          "16:00–18:00"
+        ],
+        "thu": [
+          "16:00–18:00"
+        ]
+      },
+      "startDate": "2026-10-01",
+      "buildingCode": "БЖ9",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 9",
+      "kind": "school",
+      "mosCode": 2497905,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2497905",
+      "source": "БЖ9"
+    },
+    {
+      "id": "БЖ9-36",
+      "title": "ГПД (5 дней в неделю) Бориса Жигуленкова, д.9, к.1",
+      "club": null,
+      "area": "Присмотр и уход",
+      "teacher": "Свинцова О.В.",
+      "ageFrom": 1,
+      "ageTo": 4,
+      "price": 4200,
+      "pricePrev": 3850,
+      "priceUnit": "месяц",
+      "days": [],
+      "schedule": {},
+      "startDate": null,
+      "buildingCode": "БЖ9",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 9",
+      "kind": "school",
+      "mosCode": 2502144,
+      "enrollment": "school",
+      "signupUrl": null,
+      "source": "БЖ9"
+    },
+    {
+      "id": "БЖ9-37",
+      "title": "ГПД (3 дня в неделю) Бориса Жигуленкова, д.9, к.1",
+      "club": null,
+      "area": "Присмотр и уход",
+      "teacher": "Свинцова О.В.",
+      "ageFrom": 1,
+      "ageTo": 4,
+      "price": 3300,
+      "pricePrev": 3050,
+      "priceUnit": "месяц",
+      "days": [],
+      "schedule": {},
+      "startDate": null,
+      "buildingCode": "БЖ9",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 9",
+      "kind": "school",
+      "mosCode": 2502151,
+      "enrollment": "school",
+      "signupUrl": null,
+      "source": "БЖ9"
+    },
+    {
+      "id": "БЖ9-38",
+      "title": "ГПД (2 дня в неделю) Бориса Жигуленкова, д.9, к.1",
+      "club": null,
+      "area": "Присмотр и уход",
+      "teacher": "Свинцова О.В.",
+      "ageFrom": 1,
+      "ageTo": 4,
+      "price": 2300,
+      "pricePrev": 2100,
+      "priceUnit": "месяц",
+      "days": [],
+      "schedule": {},
+      "startDate": null,
+      "buildingCode": "БЖ9",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 9",
+      "kind": "school",
+      "mosCode": 2502158,
+      "enrollment": "school",
+      "signupUrl": null,
+      "source": "БЖ9"
+    },
+    {
+      "id": "БЖ9-39",
+      "title": "ГПД (1 день в неделю) Бориса Жигуленкова, д.9, к.1",
+      "club": null,
+      "area": "Присмотр и уход",
+      "teacher": "Свинцова О.В.",
+      "ageFrom": 1,
+      "ageTo": 4,
+      "price": 1300,
+      "pricePrev": 1200,
+      "priceUnit": "месяц",
+      "days": [],
+      "schedule": {},
+      "startDate": null,
+      "buildingCode": "БЖ9",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 9",
+      "kind": "school",
+      "mosCode": 2502169,
+      "enrollment": "school",
+      "signupUrl": null,
+      "source": "БЖ9"
+    },
+    {
+      "id": "САДЫ-4",
+      "title": "Ритмика Бж9",
+      "club": null,
+      "area": "Физкультурно-спортивная",
+      "teacher": "Шалимова А.Б.",
+      "ageFrom": 3,
+      "ageTo": 7,
+      "price": 3300,
+      "pricePrev": 3200,
+      "priceUnit": "месяц",
+      "days": [
+        "fri"
+      ],
+      "schedule": {
+        "fri": [
+          "17:00–17:30"
+        ]
+      },
+      "startDate": "2026-09-01",
+      "buildingCode": "БЖ9",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 9",
+      "kind": "school",
+      "mosCode": 2506831,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2506831",
+      "source": "САДЫ"
+    },
+    {
+      "id": "САДЫ-5",
+      "title": "Творческая мастерская",
+      "club": null,
+      "area": "Художественная",
+      "teacher": "Жиглова Т.М.",
+      "ageFrom": 5,
+      "ageTo": 7,
+      "price": 3200,
+      "pricePrev": 3000,
+      "priceUnit": "месяц",
+      "days": [
+        "wed"
+      ],
+      "schedule": {
+        "wed": [
+          "15:30–16:00"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "БЖ9",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 9",
+      "kind": "school",
+      "mosCode": 2506844,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2506844",
+      "source": "САДЫ"
+    },
+    {
+      "id": "САДЫ-6",
+      "title": "Школьный спортивный клуб \"Ермак\"Шахматы (дошкольники) БЖ9",
+      "club": null,
+      "area": "Физкультурно-спортивная",
+      "teacher": "Сапеко Н.Н.",
+      "ageFrom": 5,
+      "ageTo": 7,
+      "price": 3000,
+      "pricePrev": 2800,
+      "priceUnit": "месяц",
+      "days": [
+        "fri"
+      ],
+      "schedule": {
+        "fri": [
+          "17:30–18:00"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "БЖ9",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 9",
+      "kind": "school",
+      "mosCode": 2506859,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2506859",
+      "source": "САДЫ"
+    },
+    {
+      "id": "САДЫ-7",
+      "title": "Школьный спортивный клуб \"Ермак\"ОФП с элементами баскетбола (дошкольники)",
+      "club": null,
+      "area": "Физкультурно-спортивная",
+      "teacher": "Сафонов А.О.",
+      "ageFrom": 4,
+      "ageTo": 7,
+      "price": 3000,
+      "pricePrev": 2700,
+      "priceUnit": "месяц",
+      "days": [
+        "fri"
+      ],
+      "schedule": {
+        "fri": [
+          "15:30–16:15"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "БЖ9",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 9",
+      "kind": "school",
+      "mosCode": 2506875,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2506875",
+      "source": "САДЫ"
+    },
+    {
+      "id": "САДЫ-8",
+      "title": "Школьный спортивный клуб \"Ермак\"ОФП с элементами каратэ (дошкольники)",
+      "club": null,
+      "area": "Физкультурно-спортивная",
+      "teacher": "Трифонов Н.Н.",
+      "ageFrom": 3,
+      "ageTo": 7,
+      "price": 3500,
+      "pricePrev": 3500,
+      "priceUnit": "месяц",
+      "days": [
+        "tue",
+        "thu"
+      ],
+      "schedule": {
+        "tue": [
+          "16:00–16:30"
+        ],
+        "thu": [
+          "16:00–16:30"
+        ]
+      },
+      "startDate": null,
+      "buildingCode": "БЖ9",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 9",
+      "kind": "school",
+      "mosCode": null,
+      "enrollment": "none",
+      "signupUrl": null,
+      "source": "САДЫ"
+    },
+    {
+      "id": "САДЫ-9",
+      "title": "Занимательный английский( начинающие)",
+      "club": null,
+      "area": "Социально-гуманитарная",
+      "teacher": "Львович М.В.",
+      "ageFrom": 3,
+      "ageTo": 7,
+      "price": 3800,
+      "pricePrev": 3500,
+      "priceUnit": "месяц",
+      "days": [
+        "mon",
+        "fri"
+      ],
+      "schedule": {
+        "mon": [
+          "16:15–16:45"
+        ],
+        "fri": [
+          "16:15–16:45"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "БЖ9",
+      "building": "УТОЧНИТЬ",
+      "address": "УТОЧНИТЬ, д. 9",
+      "kind": "school",
+      "mosCode": 2507348,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2507348",
+      "source": "САДЫ"
+    },
+    {
+      "id": "САДЫ-14",
+      "title": "Английский для дошкольников М12",
+      "club": null,
+      "area": "Социально-гуманитарная",
+      "teacher": "Кириченко Н.К.",
+      "ageFrom": 4,
+      "ageTo": 7,
+      "price": 4000,
+      "pricePrev": 3800,
+      "priceUnit": "месяц",
+      "days": [
+        "mon",
+        "wed"
+      ],
+      "schedule": {
+        "mon": [
+          "16:00–16:30"
+        ],
+        "wed": [
+          "16:00–16:30"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "М12",
+      "building": "Детский сад",
+      "address": "УТОЧНИТЬ, д. 12",
+      "kind": "kindergarten",
+      "mosCode": 2507371,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2507371",
+      "source": "САДЫ"
+    },
+    {
+      "id": "САДЫ-15",
+      "title": "Ритмика М12",
+      "club": null,
+      "area": "Физкультурно-спортивная",
+      "teacher": "Шалимова АБ",
+      "ageFrom": 3,
+      "ageTo": 7,
+      "price": 3500,
+      "pricePrev": 3200,
+      "priceUnit": "месяц",
+      "days": [
+        "tue"
+      ],
+      "schedule": {
+        "tue": [
+          "16:15–16:45"
+        ]
+      },
+      "startDate": "2026-09-01",
+      "buildingCode": "М12",
+      "building": "Детский сад",
+      "address": "УТОЧНИТЬ, д. 12",
+      "kind": "kindergarten",
+      "mosCode": 2507358,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2507358",
+      "source": "САДЫ"
+    },
+    {
+      "id": "САДЫ-16",
+      "title": "Математика вприпрыжку М12",
+      "club": null,
+      "area": "Естественно-научная",
+      "teacher": "Савельева Е.В.",
+      "ageFrom": 4,
+      "ageTo": 7,
+      "price": 3300,
+      "pricePrev": 3000,
+      "priceUnit": "месяц",
+      "days": [
+        "fri"
+      ],
+      "schedule": {
+        "fri": [
+          "16:30–17:00"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "М12",
+      "building": "Детский сад",
+      "address": "УТОЧНИТЬ, д. 12",
+      "kind": "kindergarten",
+      "mosCode": 2507398,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2507398",
+      "source": "САДЫ"
+    },
+    {
+      "id": "САДЫ-17",
+      "title": "Школьный спортивный клуб \"Ермак\"Шахматы (дошкольники) М12",
+      "club": null,
+      "area": "Физкультурно-спортивная",
+      "teacher": "Сапеко Н.Н.",
+      "ageFrom": 5,
+      "ageTo": 7,
+      "price": 3000,
+      "pricePrev": 2800,
+      "priceUnit": "месяц",
+      "days": [
+        "tue"
+      ],
+      "schedule": {
+        "tue": [
+          "16:30–17:00"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "М12",
+      "building": "Детский сад",
+      "address": "УТОЧНИТЬ, д. 12",
+      "kind": "kindergarten",
+      "mosCode": 2507464,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2507464",
+      "source": "САДЫ"
+    },
+    {
+      "id": "САДЫ-18",
+      "title": "Школьный спортивный клуб \"Ермак\"Шахматы (дошкольники) М12",
+      "club": null,
+      "area": "Физкультурно-спортивная",
+      "teacher": "Сапеко Н.Н.",
+      "ageFrom": 4,
+      "ageTo": 5,
+      "price": 3000,
+      "pricePrev": 2800,
+      "priceUnit": "месяц",
+      "days": [
+        "tue"
+      ],
+      "schedule": {
+        "tue": [
+          "15:40–16:10"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "М12",
+      "building": "Детский сад",
+      "address": "УТОЧНИТЬ, д. 12",
+      "kind": "kindergarten",
+      "mosCode": 2507563,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2507563",
+      "source": "САДЫ"
+    },
+    {
+      "id": "САДЫ-23",
+      "title": "Математика вприпрыжку М46",
+      "club": null,
+      "area": "Естественно-научная",
+      "teacher": "Савельева Е.В.",
+      "ageFrom": 4,
+      "ageTo": 7,
+      "price": 3300,
+      "pricePrev": 3000,
+      "priceUnit": "месяц",
+      "days": [
+        "wed"
+      ],
+      "schedule": {
+        "wed": [
+          "15:30–16:00"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "М46",
+      "building": "Детский сад",
+      "address": "УТОЧНИТЬ, д. 46",
+      "kind": "kindergarten",
+      "mosCode": 2507613,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2507613",
+      "source": "САДЫ"
+    },
+    {
+      "id": "САДЫ-24",
+      "title": "Английский для дошкольников М46",
+      "club": null,
+      "area": "Социально-гуманитарная",
+      "teacher": "Кириченко Н.К.",
+      "ageFrom": 4,
+      "ageTo": 7,
+      "price": 4000,
+      "pricePrev": 3800,
+      "priceUnit": "месяц",
+      "days": [
+        "mon",
+        "wed"
+      ],
+      "schedule": {
+        "mon": [
+          "16:45–17:15"
+        ],
+        "wed": [
+          "16:45–17:15"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "М46",
+      "building": "Детский сад",
+      "address": "УТОЧНИТЬ, д. 46",
+      "kind": "kindergarten",
+      "mosCode": 2507696,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2507696",
+      "source": "САДЫ"
+    },
+    {
+      "id": "САДЫ-25",
+      "title": "Ритмика М46",
+      "club": null,
+      "area": "Физкультурно-спортивная",
+      "teacher": "Шалимова А.Б",
+      "ageFrom": 3,
+      "ageTo": 7,
+      "price": 3500,
+      "pricePrev": 3200,
+      "priceUnit": "месяц",
+      "days": [
+        "tue",
+        "thu"
+      ],
+      "schedule": {
+        "tue": [
+          "15:30–16:00"
+        ],
+        "thu": [
+          "15:30–16:00"
+        ]
+      },
+      "startDate": "2026-09-01",
+      "buildingCode": "М46",
+      "building": "Детский сад",
+      "address": "УТОЧНИТЬ, д. 46",
+      "kind": "kindergarten",
+      "mosCode": 2507819,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2507819",
+      "source": "САДЫ"
+    },
+    {
+      "id": "САДЫ-26",
+      "title": "Школьный спортивный клуб \"Ермак\"Каратэ-до с элементами ОФП",
+      "club": null,
+      "area": "Физкультурно-спортивная",
+      "teacher": "Трифонов Н.Н.",
+      "ageFrom": 3,
+      "ageTo": 7,
+      "price": 3500,
+      "pricePrev": 3500,
+      "priceUnit": "месяц",
+      "days": [
+        "mon",
+        "wed"
+      ],
+      "schedule": {
+        "mon": [
+          "15:45–16:15"
+        ],
+        "wed": [
+          "15:45–16:15"
+        ]
+      },
+      "startDate": null,
+      "buildingCode": "М46",
+      "building": "Детский сад",
+      "address": "УТОЧНИТЬ, д. 46",
+      "kind": "kindergarten",
+      "mosCode": null,
+      "enrollment": "none",
+      "signupUrl": null,
+      "source": "САДЫ"
+    },
+    {
+      "id": "САДЫ-27",
+      "title": "Я говорю (8 человек)",
+      "club": null,
+      "area": "Социально-гуманитарная",
+      "teacher": "Яковенко С. Ф.",
+      "ageFrom": 3,
+      "ageTo": 5,
+      "price": 3200,
+      "pricePrev": null,
+      "priceUnit": "месяц",
+      "days": [
+        "mon"
+      ],
+      "schedule": {
+        "mon": [
+          "15:30–16:00"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "М46",
+      "building": "Детский сад",
+      "address": "УТОЧНИТЬ, д. 46",
+      "kind": "kindergarten",
+      "mosCode": null,
+      "enrollment": "none",
+      "signupUrl": null,
+      "source": "САДЫ"
+    },
+    {
+      "id": "САДЫ-28",
+      "title": "Академия произношения ( 5 человек)",
+      "club": null,
+      "area": "Социально-гуманитарная",
+      "teacher": "Яковенко С. Ф.",
+      "ageFrom": 5,
+      "ageTo": 7,
+      "price": 4400,
+      "pricePrev": 4000,
+      "priceUnit": "месяц",
+      "days": [
+        "mon"
+      ],
+      "schedule": {
+        "mon": [
+          "16:10–16:40"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "М46",
+      "building": "Детский сад",
+      "address": "УТОЧНИТЬ, д. 46",
+      "kind": "kindergarten",
+      "mosCode": null,
+      "enrollment": "none",
+      "signupUrl": null,
+      "source": "САДЫ"
+    },
+    {
+      "id": "САДЫ-29",
+      "title": "Школьный спортивный клуб \"Ермак\"ОФП с элементами баскетбола",
+      "club": null,
+      "area": "Физкультурно-спортивная",
+      "teacher": "Сафонов А.О.",
+      "ageFrom": 5,
+      "ageTo": 7,
+      "price": 2800,
+      "pricePrev": 2700,
+      "priceUnit": "месяц",
+      "days": [
+        "fri"
+      ],
+      "schedule": {
+        "fri": [
+          "16:30–17:00"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "М46",
+      "building": "Детский сад",
+      "address": "УТОЧНИТЬ, д. 46",
+      "kind": "kindergarten",
+      "mosCode": null,
+      "enrollment": "none",
+      "signupUrl": null,
+      "source": "САДЫ"
+    },
+    {
+      "id": "САДЫ-34",
+      "title": "Ритмическая мозайка",
+      "club": null,
+      "area": "Художественная",
+      "teacher": "Сабаттини О.М.",
+      "ageFrom": 3,
+      "ageTo": 5,
+      "price": 3200,
+      "pricePrev": 3000,
+      "priceUnit": "месяц",
+      "days": [
+        "mon",
+        "thu"
+      ],
+      "schedule": {
+        "mon": [
+          "15:30–16:00"
+        ],
+        "thu": [
+          "15:30–16:00"
+        ]
+      },
+      "startDate": null,
+      "buildingCode": "Щ22",
+      "building": "Детский сад",
+      "address": "УТОЧНИТЬ, д. 22",
+      "kind": "kindergarten",
+      "mosCode": null,
+      "enrollment": "none",
+      "signupUrl": null,
+      "source": "САДЫ"
+    },
+    {
+      "id": "САДЫ-35",
+      "title": "Спортивные бальные танцы \"Танцстиль",
+      "club": null,
+      "area": "Физкультурно-спортивная",
+      "teacher": "Шалимова А.Б.",
+      "ageFrom": 3,
+      "ageTo": 7,
+      "price": 3500,
+      "pricePrev": 3200,
+      "priceUnit": "месяц",
+      "days": [
+        "wed",
+        "fri"
+      ],
+      "schedule": {
+        "wed": [
+          "15:30–16:00"
+        ],
+        "fri": [
+          "15:30–16:00"
+        ]
+      },
+      "startDate": null,
+      "buildingCode": "Щ22",
+      "building": "Детский сад",
+      "address": "УТОЧНИТЬ, д. 22",
+      "kind": "kindergarten",
+      "mosCode": null,
+      "enrollment": "none",
+      "signupUrl": null,
+      "source": "САДЫ"
+    },
+    {
+      "id": "САДЫ-36",
+      "title": "Спортивные бальные танцы \"Танцстиль",
+      "club": null,
+      "area": "Физкультурно-спортивная",
+      "teacher": "Шалимова А.Б.",
+      "ageFrom": 3,
+      "ageTo": 7,
+      "price": 2300,
+      "pricePrev": 2100,
+      "priceUnit": "месяц",
+      "days": [
+        "wed",
+        "fri"
+      ],
+      "schedule": {
+        "wed": [
+          "15:30–16:00"
+        ],
+        "fri": [
+          "15:30–16:00"
+        ]
+      },
+      "startDate": null,
+      "buildingCode": "Щ22",
+      "building": "Детский сад",
+      "address": "УТОЧНИТЬ, д. 22",
+      "kind": "kindergarten",
+      "mosCode": null,
+      "enrollment": "none",
+      "signupUrl": null,
+      "source": "САДЫ"
+    },
+    {
+      "id": "САДЫ-37",
+      "title": "Тхэквондо (2 занятия в неделю)",
+      "club": "Школьный спортивный клуб «Ермак»",
+      "area": "Физкультурно-спортивная",
+      "teacher": "Нистратов П.В.",
+      "ageFrom": 4,
+      "ageTo": 5,
+      "price": 3500,
+      "pricePrev": 3200,
+      "priceUnit": "месяц",
+      "days": [
+        "tue",
+        "thu"
+      ],
+      "schedule": {
+        "tue": [
+          "16:50–17:20"
+        ],
+        "thu": [
+          "16:50–17:20"
+        ]
+      },
+      "startDate": null,
+      "buildingCode": "Щ22",
+      "building": "Детский сад",
+      "address": "УТОЧНИТЬ, д. 22",
+      "kind": "kindergarten",
+      "mosCode": null,
+      "enrollment": "none",
+      "signupUrl": null,
+      "source": "САДЫ"
+    },
+    {
+      "id": "САДЫ-38",
+      "title": "Тхэквондо (1 занятие в неделю)",
+      "club": "Школьный спортивный клуб «Ермак»",
+      "area": "Физкультурно-спортивная",
+      "teacher": "Нистратов П.В.",
+      "ageFrom": 4,
+      "ageTo": 5,
+      "price": 2300,
+      "pricePrev": 2100,
+      "priceUnit": "месяц",
+      "days": [
+        "tue",
+        "thu"
+      ],
+      "schedule": {
+        "tue": [
+          "16:50–17:20"
+        ],
+        "thu": [
+          "16:50–17:20"
+        ]
+      },
+      "startDate": null,
+      "buildingCode": "Щ22",
+      "building": "Детский сад",
+      "address": "УТОЧНИТЬ, д. 22",
+      "kind": "kindergarten",
+      "mosCode": null,
+      "enrollment": "none",
+      "signupUrl": null,
+      "source": "САДЫ"
+    },
+    {
+      "id": "САДЫ-39",
+      "title": "Шахматы (дошкольники) Щ22",
+      "club": "Школьный спортивный клуб «Ермак»",
+      "area": "Физкультурно-спортивная",
+      "teacher": "Сапеко Н.Н.",
+      "ageFrom": 4,
+      "ageTo": 7,
+      "price": 3000,
+      "pricePrev": 2800,
+      "priceUnit": "месяц",
+      "days": [
+        "wed"
+      ],
+      "schedule": {
+        "wed": [
+          "17:30–18:00"
+        ]
+      },
+      "startDate": null,
+      "buildingCode": "Щ22",
+      "building": "Детский сад",
+      "address": "УТОЧНИТЬ, д. 22",
+      "kind": "kindergarten",
+      "mosCode": null,
+      "enrollment": "none",
+      "signupUrl": null,
+      "source": "САДЫ"
+    },
+    {
+      "id": "САДЫ-40",
+      "title": "Логоритмика для малышей",
+      "club": null,
+      "area": "Социально-гуманитарная",
+      "teacher": "Кудрявцева И.Г.",
+      "ageFrom": 3,
+      "ageTo": 4,
+      "price": 3500,
+      "pricePrev": 3300,
+      "priceUnit": "месяц",
+      "days": [
+        "mon",
+        "tue"
+      ],
+      "schedule": {
+        "mon": [
+          "15:45–16:05"
+        ],
+        "tue": [
+          "15:45–16:05"
+        ]
+      },
+      "startDate": null,
+      "buildingCode": "Щ22",
+      "building": "Детский сад",
+      "address": "УТОЧНИТЬ, д. 22",
+      "kind": "kindergarten",
+      "mosCode": null,
+      "enrollment": "none",
+      "signupUrl": null,
+      "source": "САДЫ"
+    },
+    {
+      "id": "САДЫ-41",
+      "title": "Учусь плавать (2 занятие в неделю) Щ22",
+      "club": "Школьный спортивный клуб «Ермак»",
+      "area": "Физкультурно-спортивная",
+      "teacher": "Савенкова В.К.",
+      "ageFrom": 3,
+      "ageTo": 7,
+      "price": 4000,
+      "pricePrev": 3500,
+      "priceUnit": "месяц",
+      "days": [
+        "mon",
+        "wed"
+      ],
+      "schedule": {
+        "mon": [
+          "15:30–17:30"
+        ],
+        "wed": [
+          "15:30–17:30"
+        ]
+      },
+      "startDate": null,
+      "buildingCode": "Щ22",
+      "building": "Детский сад",
+      "address": "УТОЧНИТЬ, д. 22",
+      "kind": "kindergarten",
+      "mosCode": null,
+      "enrollment": "none",
+      "signupUrl": null,
+      "source": "САДЫ"
+    },
+    {
+      "id": "САДЫ-42",
+      "title": "Учусь плавать (1 занятие в неделю) Щ22",
+      "club": "Школьный спортивный клуб «Ермак»",
+      "area": "Физкультурно-спортивная",
+      "teacher": "Савенкова В.К.",
+      "ageFrom": 3,
+      "ageTo": 7,
+      "price": 2700,
+      "pricePrev": 2400,
+      "priceUnit": "месяц",
+      "days": [
+        "mon",
+        "wed"
+      ],
+      "schedule": {
+        "mon": [
+          "15:30–17:30"
+        ],
+        "wed": [
+          "15:30–17:30"
+        ]
+      },
+      "startDate": null,
+      "buildingCode": "Щ22",
+      "building": "Детский сад",
+      "address": "УТОЧНИТЬ, д. 22",
+      "kind": "kindergarten",
+      "mosCode": null,
+      "enrollment": "none",
+      "signupUrl": null,
+      "source": "САДЫ"
+    },
+    {
+      "id": "САДЫ-47",
+      "title": "Спортивные бальные танцы \"Танцстиль\"(2 занятия в неделю)",
+      "club": null,
+      "area": "Физкультурно-спортивная",
+      "teacher": "Шалимова А.Б.",
+      "ageFrom": 3,
+      "ageTo": 7,
+      "price": 3500,
+      "pricePrev": 3200,
+      "priceUnit": "месяц",
+      "days": [
+        "mon",
+        "fri"
+      ],
+      "schedule": {
+        "mon": [
+          "15:30–16:00"
+        ],
+        "fri": [
+          "16:15–16:45"
+        ]
+      },
+      "startDate": "2026-09-01",
+      "buildingCode": "В28А",
+      "building": "Детский сад",
+      "address": "УТОЧНИТЬ, д. 28А",
+      "kind": "kindergarten",
+      "mosCode": null,
+      "enrollment": "none",
+      "signupUrl": null,
+      "source": "САДЫ"
+    },
+    {
+      "id": "САДЫ-48",
+      "title": "Спортивные бальные танцы \"Танцстиль\"(1 занятия в неделю)",
+      "club": null,
+      "area": "Физкультурно-спортивная",
+      "teacher": "Шалимова А.Б.",
+      "ageFrom": 3,
+      "ageTo": 7,
+      "price": 2300,
+      "pricePrev": 2100,
+      "priceUnit": "месяц",
+      "days": [
+        "mon",
+        "fri"
+      ],
+      "schedule": {
+        "mon": [
+          "15:30–16:00"
+        ],
+        "fri": [
+          "16:15–16:45"
+        ]
+      },
+      "startDate": "2026-09-01",
+      "buildingCode": "В28А",
+      "building": "Детский сад",
+      "address": "УТОЧНИТЬ, д. 28А",
+      "kind": "kindergarten",
+      "mosCode": null,
+      "enrollment": "none",
+      "signupUrl": null,
+      "source": "САДЫ"
+    },
+    {
+      "id": "САДЫ-49",
+      "title": "Развивалки-лепеталки(2 занятия в неделю)",
+      "club": null,
+      "area": "Социально-гуманитарная",
+      "teacher": "Карпова Л.С.",
+      "ageFrom": 2,
+      "ageTo": 5,
+      "price": 3500,
+      "pricePrev": 3300,
+      "priceUnit": "месяц",
+      "days": [
+        "tue",
+        "thu"
+      ],
+      "schedule": {
+        "tue": [
+          "15:30–16:00"
+        ],
+        "thu": [
+          "15:30–16:00"
+        ]
+      },
+      "startDate": null,
+      "buildingCode": "В28А",
+      "building": "Детский сад",
+      "address": "УТОЧНИТЬ, д. 28А",
+      "kind": "kindergarten",
+      "mosCode": null,
+      "enrollment": "none",
+      "signupUrl": null,
+      "source": "САДЫ"
+    },
+    {
+      "id": "САДЫ-50",
+      "title": "Развивалки-лепеталки(1 занятия в неделю)",
+      "club": null,
+      "area": "Социально-гуманитарная",
+      "teacher": "Карпова Л.С.",
+      "ageFrom": 2,
+      "ageTo": 5,
+      "price": 2400,
+      "pricePrev": 2200,
+      "priceUnit": "месяц",
+      "days": [
+        "tue"
+      ],
+      "schedule": {
+        "tue": [
+          "16:10–16:40"
+        ]
+      },
+      "startDate": null,
+      "buildingCode": "В28А",
+      "building": "Детский сад",
+      "address": "УТОЧНИТЬ, д. 28А",
+      "kind": "kindergarten",
+      "mosCode": null,
+      "enrollment": "none",
+      "signupUrl": null,
+      "source": "САДЫ"
+    },
+    {
+      "id": "САДЫ-51",
+      "title": "Академия произношения (индивидуальные занятия)",
+      "club": null,
+      "area": "Социально-гуманитарная",
+      "teacher": "Яковенко С. Ф.",
+      "ageFrom": 4,
+      "ageTo": 7,
+      "price": 4400,
+      "pricePrev": 4400,
+      "priceUnit": "месяц",
+      "days": [
+        "tue"
+      ],
+      "schedule": {
+        "tue": [
+          "15:30–16:00"
+        ]
+      },
+      "startDate": "2025-09-16",
+      "buildingCode": "В28А",
+      "building": "Детский сад",
+      "address": "УТОЧНИТЬ, д. 28А",
+      "kind": "kindergarten",
+      "mosCode": null,
+      "enrollment": "none",
+      "signupUrl": null,
+      "source": "САДЫ"
+    },
+    {
+      "id": "САДЫ-52",
+      "title": "Тхэквондо (1 группа)",
+      "club": "Школьный спортивный клуб «Ермак»",
+      "area": "Физкультурно-спортивная",
+      "teacher": "Нистратов П.В.",
+      "ageFrom": 5,
+      "ageTo": 7,
+      "price": 3500,
+      "pricePrev": 3200,
+      "priceUnit": "месяц",
+      "days": [
+        "tue",
+        "thu"
+      ],
+      "schedule": {
+        "tue": [
+          "15:30–16:00"
+        ],
+        "thu": [
+          "15:30–16:00"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "В28А",
+      "building": "Детский сад",
+      "address": "УТОЧНИТЬ, д. 28А",
+      "kind": "kindergarten",
+      "mosCode": 2535216,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2535216",
+      "source": "САДЫ"
+    },
+    {
+      "id": "САДЫ-53",
+      "title": "Тхэквондо (2 группа)",
+      "club": "Школьный спортивный клуб «Ермак»",
+      "area": "Физкультурно-спортивная",
+      "teacher": "Нистратов П.В.",
+      "ageFrom": 3,
+      "ageTo": 5,
+      "price": 3500,
+      "pricePrev": 3200,
+      "priceUnit": "месяц",
+      "days": [
+        "tue",
+        "thu"
+      ],
+      "schedule": {
+        "tue": [
+          "16:00–16:30"
+        ],
+        "thu": [
+          "16:00–16:30"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "В28А",
+      "building": "Детский сад",
+      "address": "УТОЧНИТЬ, д. 28А",
+      "kind": "kindergarten",
+      "mosCode": 2535237,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2535237",
+      "source": "САДЫ"
+    },
+    {
+      "id": "САДЫ-54",
+      "title": "Умелые ручки (1 группа)",
+      "club": null,
+      "area": "Социально-гуманитарная",
+      "teacher": "Лукияник С.К.",
+      "ageFrom": 3,
+      "ageTo": 5,
+      "price": 3500,
+      "pricePrev": 3300,
+      "priceUnit": "месяц",
+      "days": [
+        "mon",
+        "wed"
+      ],
+      "schedule": {
+        "mon": [
+          "15:30–16:00"
+        ],
+        "wed": [
+          "15:30–16:00"
+        ]
+      },
+      "startDate": null,
+      "buildingCode": "В28А",
+      "building": "Детский сад",
+      "address": "УТОЧНИТЬ, д. 28А",
+      "kind": "kindergarten",
+      "mosCode": null,
+      "enrollment": "none",
+      "signupUrl": null,
+      "source": "САДЫ"
+    },
+    {
+      "id": "САДЫ-55",
+      "title": "Умелые ручки (2 группа)",
+      "club": null,
+      "area": "Социально-гуманитарная",
+      "teacher": "Лукияник С.К.",
+      "ageFrom": 5,
+      "ageTo": 7,
+      "price": 3500,
+      "pricePrev": 3300,
+      "priceUnit": "месяц",
+      "days": [
+        "mon",
+        "wed"
+      ],
+      "schedule": {
+        "mon": [
+          "16:10–16:40"
+        ],
+        "wed": [
+          "16:10–16:40"
+        ]
+      },
+      "startDate": null,
+      "buildingCode": "В28А",
+      "building": "Детский сад",
+      "address": "УТОЧНИТЬ, д. 28А",
+      "kind": "kindergarten",
+      "mosCode": null,
+      "enrollment": "none",
+      "signupUrl": null,
+      "source": "САДЫ"
+    },
+    {
+      "id": "САДЫ-56",
+      "title": "Занимательный английский",
+      "club": null,
+      "area": "Социально-гуманитарная",
+      "teacher": "Пестерева О.С.",
+      "ageFrom": 2,
+      "ageTo": 4,
+      "price": 3800,
+      "pricePrev": 3800,
+      "priceUnit": "месяц",
+      "days": [
+        "wed",
+        "fri"
+      ],
+      "schedule": {
+        "wed": [
+          "15:40–16:10"
+        ],
+        "fri": [
+          "15:40–16:10"
+        ]
+      },
+      "startDate": null,
+      "buildingCode": "В28А",
+      "building": "Детский сад",
+      "address": "УТОЧНИТЬ, д. 28А",
+      "kind": "kindergarten",
+      "mosCode": null,
+      "enrollment": "none",
+      "signupUrl": null,
+      "source": "САДЫ"
+    },
+    {
+      "id": "САДЫ-57",
+      "title": "Занимательный английский",
+      "club": null,
+      "area": "Социально-гуманитарная",
+      "teacher": "Пестерева О.С.",
+      "ageFrom": 4,
+      "ageTo": 6,
+      "price": 3800,
+      "pricePrev": 3800,
+      "priceUnit": "месяц",
+      "days": [
+        "wed",
+        "fri"
+      ],
+      "schedule": {
+        "wed": [
+          "16:15–16:45"
+        ],
+        "fri": [
+          "16:15–16:45"
+        ]
+      },
+      "startDate": null,
+      "buildingCode": "В28А",
+      "building": "Детский сад",
+      "address": "УТОЧНИТЬ, д. 28А",
+      "kind": "kindergarten",
+      "mosCode": null,
+      "enrollment": "none",
+      "signupUrl": null,
+      "source": "САДЫ"
+    },
+    {
+      "id": "САДЫ-58",
+      "title": "Шахматы ( начинающие)",
+      "club": "Школьный спортивный клуб «Ермак»",
+      "area": "Физкультурно-спортивная",
+      "teacher": "Сапеко Н.Н.",
+      "ageFrom": 4,
+      "ageTo": 7,
+      "price": 3000,
+      "pricePrev": 2800,
+      "priceUnit": "месяц",
+      "days": [
+        "fri"
+      ],
+      "schedule": {
+        "fri": [
+          "16:00–16:30"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "В28А",
+      "building": "Детский сад",
+      "address": "УТОЧНИТЬ, д. 28А",
+      "kind": "kindergarten",
+      "mosCode": null,
+      "enrollment": "none",
+      "signupUrl": null,
+      "source": "САДЫ"
+    },
+    {
+      "id": "САДЫ-59",
+      "title": "Шахматы ( продолжающие)",
+      "club": "Школьный спортивный клуб «Ермак»",
+      "area": "Физкультурно-спортивная",
+      "teacher": "Сапеко Н.Н.",
+      "ageFrom": 5,
+      "ageTo": 7,
+      "price": 3000,
+      "pricePrev": 2800,
+      "priceUnit": "месяц",
+      "days": [
+        "fri"
+      ],
+      "schedule": {
+        "fri": [
+          "16:30–17:00"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "В28А",
+      "building": "Детский сад",
+      "address": "УТОЧНИТЬ, д. 28А",
+      "kind": "kindergarten",
+      "mosCode": null,
+      "enrollment": "none",
+      "signupUrl": null,
+      "source": "САДЫ"
+    },
+    {
+      "id": "САДЫ-64",
+      "title": "Художественная гимнастика \"Алые паруса",
+      "club": "Школьный спортивный клуб «Ермак»",
+      "area": "Физкультурно-спортивная",
+      "teacher": "Волкова В В.",
+      "ageFrom": 3,
+      "ageTo": 7,
+      "price": 4000,
+      "pricePrev": 4500,
+      "priceUnit": "месяц",
+      "days": [
+        "thu"
+      ],
+      "schedule": {
+        "thu": [
+          "15:30–16:30"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "З31А",
+      "building": "Детский сад",
+      "address": "УТОЧНИТЬ, д. 31А",
+      "kind": "kindergarten",
+      "mosCode": 2534576,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2534576",
+      "source": "САДЫ"
+    },
+    {
+      "id": "САДЫ-65",
+      "title": "Математика вприпрыжку Зв31",
+      "club": null,
+      "area": "Социально-гуманитарная",
+      "teacher": "Савельева Е.В.",
+      "ageFrom": 4,
+      "ageTo": 7,
+      "price": 3000,
+      "pricePrev": 2400,
+      "priceUnit": "месяц",
+      "days": [
+        "fri"
+      ],
+      "schedule": {
+        "fri": [
+          "15:30–16:00"
+        ]
+      },
+      "startDate": "2026-09-07",
+      "buildingCode": "З31А",
+      "building": "Детский сад",
+      "address": "УТОЧНИТЬ, д. 31А",
+      "kind": "kindergarten",
+      "mosCode": null,
+      "enrollment": "none",
+      "signupUrl": null,
+      "source": "САДЫ"
+    },
+    {
+      "id": "САДЫ-66",
+      "title": "Волшебный песок",
+      "club": null,
+      "area": "Художественная",
+      "teacher": "Бобрай Е.Н.",
+      "ageFrom": 3,
+      "ageTo": 7,
+      "price": 3300,
+      "pricePrev": 2700,
+      "priceUnit": "месяц",
+      "days": [
+        "wed"
+      ],
+      "schedule": {
+        "wed": [
+          "16:00–16:30"
+        ]
+      },
+      "startDate": "2026-09-16",
+      "buildingCode": "З31А",
+      "building": "Детский сад",
+      "address": "УТОЧНИТЬ, д. 31А",
+      "kind": "kindergarten",
+      "mosCode": 2535500,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2535500",
+      "source": "САДЫ"
+    },
+    {
+      "id": "САДЫ-67",
+      "title": "Учусь плавать (1 занятие в неделю) Зв31",
+      "club": "Школьный спортивный клуб «Ермак»",
+      "area": "Физкультурно-спортивная",
+      "teacher": "Рыжова И.И.",
+      "ageFrom": 3,
+      "ageTo": 7,
+      "price": 2700,
+      "pricePrev": 2400,
+      "priceUnit": "месяц",
+      "days": [
+        "mon",
+        "wed"
+      ],
+      "schedule": {
+        "mon": [
+          "15:30–17:30"
+        ],
+        "wed": [
+          "15:30–17:30"
+        ]
+      },
+      "startDate": "2026-09-16",
+      "buildingCode": "З31А",
+      "building": "Детский сад",
+      "address": "УТОЧНИТЬ, д. 31А",
+      "kind": "kindergarten",
+      "mosCode": 2534110,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2534110",
+      "source": "САДЫ"
+    },
+    {
+      "id": "САДЫ-68",
+      "title": "Учусь плавать (2 занятия в неделю) Зв31",
+      "club": "Школьный спортивный клуб «Ермак»",
+      "area": "Физкультурно-спортивная",
+      "teacher": "Рыжова И.И.",
+      "ageFrom": 3,
+      "ageTo": 7,
+      "price": 4000,
+      "pricePrev": 3500,
+      "priceUnit": "месяц",
+      "days": [
+        "mon",
+        "wed"
+      ],
+      "schedule": {
+        "mon": [
+          "15:30–17:30"
+        ],
+        "wed": [
+          "15:30–17:30"
+        ]
+      },
+      "startDate": "2024-09-16",
+      "buildingCode": "З31А",
+      "building": "Детский сад",
+      "address": "УТОЧНИТЬ, д. 31А",
+      "kind": "kindergarten",
+      "mosCode": 2534214,
+      "enrollment": "mos",
+      "signupUrl": "https://www.mos.ru/pgu2/activity/card/2534214",
+      "source": "САДЫ"
+    },
+    {
+      "id": "САДЫ-69",
+      "title": "В стране английских букв (старшая и подготовительная группы)",
+      "club": null,
+      "area": "Социально-гуманитарная",
+      "teacher": "Левашова А.Г.",
+      "ageFrom": 5,
+      "ageTo": 7,
+      "price": 3500,
+      "pricePrev": 3500,
+      "priceUnit": "месяц",
+      "days": [
+        "mon",
+        "wed"
+      ],
+      "schedule": {
+        "mon": [
+          "16:10–16:40"
+        ],
+        "wed": [
+          "16:10–16:40"
+        ]
+      },
+      "startDate": null,
+      "buildingCode": "З31А",
+      "building": "Детский сад",
+      "address": "УТОЧНИТЬ, д. 31А",
+      "kind": "kindergarten",
+      "mosCode": null,
+      "enrollment": "none",
+      "signupUrl": null,
+      "source": "САДЫ"
+    },
+    {
+      "id": "САДЫ-70",
+      "title": "Содружество школьных театров \"Художественное слово\" (музыкальный театр)",
+      "club": null,
+      "area": "Художественная",
+      "teacher": "Хроменко Т.Е.",
+      "ageFrom": 4,
+      "ageTo": 6,
+      "price": 2500,
+      "pricePrev": 2200,
+      "priceUnit": "месяц",
+      "days": [
+        "thu"
+      ],
+      "schedule": {
+        "thu": [
+          "15:30–16:00"
+        ]
+      },
+      "startDate": null,
+      "buildingCode": "З31А",
+      "building": "Детский сад",
+      "address": "УТОЧНИТЬ, д. 31А",
+      "kind": "kindergarten",
+      "mosCode": null,
+      "enrollment": "none",
+      "signupUrl": null,
+      "source": "САДЫ"
+    },
+    {
+      "id": "САДЫ-71",
+      "title": "Школьный спортивный клуб \"Ермак\"ОФП с элементами баскетбола",
+      "club": null,
+      "area": "Физкультурно-спортивная",
+      "teacher": "Сафонов А.О.",
+      "ageFrom": 5,
+      "ageTo": 7,
+      "price": 2800,
+      "pricePrev": null,
+      "priceUnit": "месяц",
+      "days": [],
+      "schedule": {},
+      "startDate": null,
+      "buildingCode": "М46",
+      "building": "Детский сад",
+      "address": "УТОЧНИТЬ, д. 46",
+      "kind": "kindergarten",
+      "mosCode": null,
+      "enrollment": "none",
+      "signupUrl": null,
+      "source": "САДЫ"
+    }
+  ]
+}

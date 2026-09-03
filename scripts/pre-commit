@@ -1,0 +1,10 @@
+#!/bin/sh
+# Не пускает в коммит таблицу со служебными листами.
+# Установка: ./scripts/install-hooks.sh
+
+changed=$(git diff --cached --name-only --diff-filter=ACM | grep '\.ods$')
+[ -z "$changed" ] && exit 0
+
+for f in $changed; do
+    python3 check_ods.py "$f" || exit 1
+done
