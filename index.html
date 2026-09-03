@@ -223,7 +223,8 @@ function card(c){
 
   const facts = [
     c.teacher,
-    c.ageFrom != null ? `${c.ageFrom}–${c.ageTo} лет` : null,
+    c.ageFrom != null ? `${c.ageFrom}–${c.ageTo} лет`
+      : c.gradeFrom != null ? `${c.gradeFrom}–${c.gradeTo} класс` : null,
     c.address,
     c.startDate ? `с ${new Date(c.startDate).toLocaleDateString("ru",{day:"numeric",month:"long"})}` : null
   ].filter(Boolean).map(f => `<span>${esc(f)}</span>`).join("");

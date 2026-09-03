@@ -21,6 +21,7 @@
 from __future__ import annotations
 
 import argparse
+import datetime
 import json
 import re
 import sys
@@ -56,6 +57,7 @@ DAY_BY_HEADER = {"пн": "mon", "вт": "tue", "ср": "wed",
 MOS_SEARCH = "https://www.mos.ru/pgu2/activity/groups?keyword={}"
 TIME_RE = re.compile(r"(\d{1,2})[:.,](\d{2})\s*[-–—]\s*(\d{1,2})[:.,](\d{2})")
 PHONE_RE = re.compile(r"[+\d][\d\s\-()]{9,}")
+CLASS_RE = re.compile(r"класс", re.IGNORECASE)
 
 problems: list[str] = []
 
@@ -91,28 +93,43 @@ def clean_title(value, prefixes: list[str]) -> tuple[str, str | None]:
     return text, None
 
 
-def clean_age(value, sheet: str, row: int) -> tuple[int | None, int | None]:
+def clean_age(value, sheet: str, row: int) -> tuple[int | None, int | None, int | None, int | None]:
     """
     '6-8' было съедено автоформатом и стало датой 2026-08-06.
     Разбираем обратно: день — нижняя граница, месяц — верхняя.
     Строками уцелели только диапазоны с числом больше 12.
+
+    У ГПД в этой же колонке иногда стоит класс ('1-5 класс'), а не
+    возраст — это не одно и то же, класс отдаётся отдельными полями
+    gradeFrom/gradeTo, а не подставляется под ageFrom/ageTo.
+
+    Возвращает (ageFrom, ageTo, gradeFrom, gradeTo) — у строки заполнена
+    только одна из пар.
     """
     if value is None or (isinstance(value, float) and pd.isna(value)):
         note(sheet, row, "возраст не указан")
-        return None, None
-    if isinstance(value, pd.Timestamp):
+        return None, None, None, None
+    if isinstance(value, datetime.datetime):
         low, high = value.day, value.month
         if low > high:
             note(sheet, row, f"возраст из даты перевёрнут ({low}-{high}), переставлен")
             low, high = high, low
-        return low, high
-    nums = [int(n) for n in re.findall(r"\d+", str(value))]
+        return low, high, None, None
+    text = str(value)
+    nums = [int(n) for n in re.findall(r"\d+", text)]
+    if CLASS_RE.search(text):
+        if not nums:
+            note(sheet, row, f"класс без числа {text!r}")
+            return None, None, None, None
+        grade_low, grade_high = (min(nums[:2]), max(nums[:2])) if len(nums) >= 2 else (nums[0], nums[0])
+        note(sheet, row, f"в поле возраста указан класс {text!r}, а не возраст — сохранён отдельно")
+        return None, None, grade_low, grade_high
     if len(nums) >= 2:
-        return min(nums[:2]), max(nums[:2])
+        return min(nums[:2]), max(nums[:2]), None, None
     if len(nums) == 1:
-        return nums[0], nums[0]
-    note(sheet, row, f"не разобран возраст {str(value)!r}")
-    return None, None
+        return nums[0], nums[0], None, None
+    note(sheet, row, f"не разобран возраст {text!r}")
+    return None, None, None, None
 
 
 def clean_slots(value, sheet: str, row: int, day: str) -> list[str]:
@@ -181,7 +198,7 @@ def read_sheet(raw: pd.DataFrame, sheet: str, cfg: dict) -> list[dict]:
             note(sheet, idx, f"{title!r}: в поле педагога был телефон — вырезан")
             teacher = PHONE_RE.sub("", teacher).strip(" ,;—-")
 
-        low, high = clean_age(col(row, "Возраст детей", "Возраст детей3-7"), sheet, idx)
+        low, high, grade_low, grade_high = clean_age(col(row, "Возраст детей", "Возраст детей3-7"), sheet, idx)
 
         if any(marker in title.lower() for marker in no_enroll):
             enrollment = "school"
@@ -200,12 +217,14 @@ def read_sheet(raw: pd.DataFrame, sheet: str, cfg: dict) -> list[dict]:
             "teacher": teacher or None,
             "ageFrom": low,
             "ageTo": high,
+            "gradeFrom": grade_low,
+            "gradeTo": grade_high,
             "price": as_int(col(row, "Стоимость 26-27")),
             "pricePrev": as_int(col(row, "Стоимость 25-26")),
             "priceUnit": "месяц",
             "days": [d for d in DAYS if d in schedule],
             "schedule": schedule,
-            "startDate": start.strftime("%Y-%m-%d") if isinstance(start, pd.Timestamp) else None,
+            "startDate": start.strftime("%Y-%m-%d") if isinstance(start, datetime.datetime) else None,
             "buildingCode": building,
             "building": info.get("name"),
             "address": info.get("address"),
@@ -328,7 +347,8 @@ def main() -> None:
         f"  запись в школе:  {sum(1 for c in courses if c['enrollment'] == 'school')}",
         f"  без записи:      {sum(1 for c in courses if c['enrollment'] == 'none')}",
         f"  без расписания:  {sum(1 for c in courses if not c['days'])}",
-        f"  без возраста:    {sum(1 for c in courses if c['ageFrom'] is None)}",
+        f"  без возраста:    {sum(1 for c in courses if c['ageFrom'] is None and c['gradeFrom'] is None)}",
+        f"  указан класс, не возраст: {sum(1 for c in courses if c['gradeFrom'] is not None)}",
         "",
         f"Замечаний к таблице: {len(problems)}",
         *problems,
