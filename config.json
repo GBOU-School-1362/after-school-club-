@@ -5,21 +5,21 @@
   "contact": {
     "role": "Дополнительное образование",
     "name": "Приёмная",
-    "phone": "+74951234567",
-    "phoneLabel": "8 (495) 123-45-67"
+    "phone": "+74953655644",
+    "phoneLabel": "8 (495) 365-56-44"
   },
 
   "buildings": {
-    "Т47":  { "name": "Корпус на Ткацкой", "address": "ул. Ткацкая, д. 47", "kind": "school" },
-    "ИШ60": { "name": "Корпус на Измайловском", "address": "Измайловское ш., д. 60", "kind": "school" },
-    "Б6":   { "name": "УТОЧНИТЬ", "address": "УТОЧНИТЬ, д. 6", "kind": "school" },
-    "Щ36":  { "name": "УТОЧНИТЬ", "address": "УТОЧНИТЬ, д. 36", "kind": "school" },
-    "БЖ9":  { "name": "УТОЧНИТЬ", "address": "УТОЧНИТЬ, д. 9", "kind": "school" },
-    "М12":  { "name": "Детский сад", "address": "УТОЧНИТЬ, д. 12", "kind": "kindergarten" },
-    "М46":  { "name": "Детский сад", "address": "УТОЧНИТЬ, д. 46", "kind": "kindergarten" },
-    "Щ22":  { "name": "Детский сад", "address": "УТОЧНИТЬ, д. 22", "kind": "kindergarten" },
-    "В28А": { "name": "Детский сад", "address": "УТОЧНИТЬ, д. 28А", "kind": "kindergarten" },
-    "З31А": { "name": "Детский сад", "address": "УТОЧНИТЬ, д. 31А", "kind": "kindergarten" }
+    "Т47":  { "name": "Ткацкая, д. 47", "address": "ул. Ткацкая, д. 47", "kind": "school" },
+    "ИШ60": { "name": "Измайловское ш., д. 60", "address": "Измайловское ш., д. 60", "kind": "school" },
+    "Б6":   { "name": "Благуша, д. 6", "address": "Благуша, д. 6", "kind": "school" },
+    "Щ36":  { "name": "Щербаковская, д. 36", "address": "Щербаковская, д. 36", "kind": "school" },
+    "БЖ9":  { "name": "Б. Жигуленкова, д. 9", "address": "Б. Жигуленкова, д. 9", "kind": "school" },
+    "М12":  { "name": "Мироновская, д. 12", "address": "Мироновская, д. 12", "kind": "kindergarten" },
+    "М46":  { "name": "Мироновская, д. 46", "address": "Мироновская, д. 46", "kind": "kindergarten" },
+    "Щ22":  { "name": "Щербаковская, д. 22", "address": "Щербаковская, д. 22", "kind": "kindergarten" },
+    "В28А": { "name": "Вольная, д. 28А", "address": "Вольная, д. 28А", "kind": "kindergarten" },
+    "З31А": { "name": "Зверинецкая, д. 31А", "address": "Зверинецкая, д. 31А", "kind": "kindergarten" }
   },
 
   "sheets": {

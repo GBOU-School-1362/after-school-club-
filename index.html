@@ -229,7 +229,7 @@ function card(c){
   ].filter(Boolean).map(f => `<span>${esc(f)}</span>`).join("");
 
   const action = c.signupUrl
-    ? `<a class="signup" href="${esc(c.signupUrl)}" target="_blank" rel="noopener noreferrer">Записаться на mos.ru</a>`
+    ? `<a class="signup" href="${esc(c.signupUrl)}" target="_blank" rel="noopener noreferrer">Найти на mos.ru</a>`
     : `<span class="viaschool">Запись — через приёмную школы</span>`;
 
   return `<li class="item" style="--accent:var(${v})">

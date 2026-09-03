@@ -53,7 +53,7 @@ DAYS = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"]
 DAY_BY_HEADER = {"пн": "mon", "вт": "tue", "ср": "wed",
                  "чт": "thu", "пт": "fri", "сб": "sat", "вс": "sun"}
 
-MOS_CARD = "https://www.mos.ru/pgu2/activity/card/{}"
+MOS_SEARCH = "https://www.mos.ru/pgu2/activity/groups?keyword={}"
 TIME_RE = re.compile(r"(\d{1,2})[:.,](\d{2})\s*[-–—]\s*(\d{1,2})[:.,](\d{2})")
 PHONE_RE = re.compile(r"[+\d][\d\s\-()]{9,}")
 
@@ -212,7 +212,7 @@ def read_sheet(raw: pd.DataFrame, sheet: str, cfg: dict) -> list[dict]:
             "kind": info.get("kind", "school"),
             "mosCode": code,
             "enrollment": enrollment,
-            "signupUrl": MOS_CARD.format(code) if code and enrollment == "mos" else None,
+            "signupUrl": MOS_SEARCH.format(code) if code and enrollment == "mos" else None,
             "source": sheet,
         })
     return out
