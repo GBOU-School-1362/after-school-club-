@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # /// script
 # requires-python = ">=3.11"
-# dependencies = ["pandas", "odfpy"]
+# dependencies = ["pandas==3.0.5", "odfpy==1.4.1"]
 # ///
 """
 Собирает courses.json из рабочей таблицы школы.

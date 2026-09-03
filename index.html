@@ -209,7 +209,7 @@ function plural(n){
 }
 
 function schedule(c){
-  const parts = c.days.map(d => `<b>${DAY_FULL[d]}</b> ${c.schedule[d].join(", ")}`);
+  const parts = c.days.map(d => `<b>${DAY_FULL[d]}</b> ${esc(c.schedule[d].join(", "))}`);
   return parts.length ? `<p class="sched">${parts.join(" · ")}</p>` : "";
 }
 

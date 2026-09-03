@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # /// script
 # requires-python = ">=3.11"
-# dependencies = ["odfpy"]
+# dependencies = ["odfpy==1.4.1"]
 # ///
 """
 Готовит таблицу к коммиту в публичный репозиторий.
